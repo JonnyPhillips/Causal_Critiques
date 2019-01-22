@@ -25,6 +25,11 @@ library(knitr)
 ```
 
 <div class="column-left">
+This course provides students with the guidance and tools to become effective and constructive critics of political science research. 
+
+Does development cause democracy? Do proportional representation systems generate more parties? We practice making forceful critiques of the theory, methods and evidence on both sides of these arguments, helping us understand the major findings in political science and how much we should trust them.
+
+Participants will gain confidence in contributing to seminars, conferences and as referees, and will also gain new perspectives on how to design and execute their own research.
 </div>
 
 
