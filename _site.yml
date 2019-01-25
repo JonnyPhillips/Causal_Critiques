@@ -12,13 +12,13 @@ navbar:
     - text: "Day 1"
       href: Day_1.html
     - text: "Day 2"
-      href: day_2.html
+      href: Day_2.html
     - text: "Day 3"
-      href: day_3.html
+      href: Day_3.html
     - text: "Day 4"
-      href: day_4.html
+      href: Day_4.html
     - text: "Day 5"
-      href: day_5.html
+      href: Day_5.html
 
 output:
   html_document:
