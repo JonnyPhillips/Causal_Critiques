@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Morning
 
-1. Introduction to the Course
-2. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Slides_Day_2_v2.pdf)
+[Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Slides_Day_2_v2.pdf)
 
 ## Afternoon
 
 Based on [this research paper](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Boas and Hidalgo airwaves.pdf), the Ministry of Communications has proposed to ban all politicians from owning radio licences. Your task is to write a report for the Ministry: Should this ban go ahead? Does the evidence from Boas and Hidalgo provide strong justification for this ban? What do we learn and what do we *not* learn from their research? 
+
+Later, we will begin your individual presentations of your own/assigned papers, and the rest of the class will be tasked with providing constructive critiques.
