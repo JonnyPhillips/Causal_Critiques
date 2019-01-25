@@ -35,7 +35,7 @@ Participants will gain confidence in contributing to seminars, conferences and a
 
 <div class="column-right">
 ```{r, fig.width=4}
-include_graphics("logo_completo.png")
+include_graphics("logo_completo.pdf")
 ```
 </div>
 

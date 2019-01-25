@@ -1,0 +1,26 @@
+---
+title: "Day 3 - Assessing Causal Evidence"
+#author: "JP"
+#date: "January 22, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Morning
+
+[Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Slides_Day_3_v2.pdf)
+
+## Afternoon
+
+For each of the papers below:
+
+(a) Complete the [Paper Summary Template](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Paper_summary_template.pdf) from Day 1;
+(b) Write a critique of the causal methodology, highlighting the assumptions that are made and whether there is any evidence they are met. Explain what alternative explanations might also be consistent with the research findings.
+(c) Conclude by summarising how much you believe the findings of the paper.
+
+1. [Acemoglu et al 2001](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/AJR 2001.pdf)
+2. [De La O 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/De_la_O_Do.pdf)
+3. [Olken 2009](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/Olken TV and Social Capital.pdf)

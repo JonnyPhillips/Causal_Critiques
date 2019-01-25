@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Afternoon
 
-We will practice rapidly reading, understanding and summarizing academic arguments. You should complete the [Paper Summary Template](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Paper_summary_template.pdf) for each of the following two papers:
-a. [Maoz and Russett 1993](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers/Maoz and Russett 1993.pdf)
-b. [Avelino et al 2005](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers/Avelino et al 2005.pdf)
+We will practice rapidly reading, understanding and summarizing academic arguments. You should complete the [Paper Summary Template](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Paper_summary_template.pdf) for each of the following two papers:  
+a. [Maoz and Russett 1993](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers/Maoz and Russett 1993.pdf)  
+b. [Avelino et al 2005](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers/Avelino et al 2005.pdf)  
 
