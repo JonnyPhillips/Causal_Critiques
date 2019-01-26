@@ -213,14 +213,33 @@ $(document).ready(function () {
 </div>
 
 
-<div id="morning" class="section level1">
-<h1>Morning</h1>
-<p><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%201/Slides_Day_2_v2.pdf">Lecture Slides</a></p>
+<div id="morning" class="section level2">
+<h2>Morning</h2>
+<p><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%204/Slides_Day_4_v1.pdf">Lecture Slides</a></p>
+</div>
 <div id="afternoon" class="section level2">
 <h2>Afternoon</h2>
 <p>Based on <a href="https://jonnyphillips.github.io/Causal_Critiques/Day%204/Boas%20and%20Hidalgo%20airwaves.pdf">this research paper</a>, the Ministry of Communications has proposed to ban all politicians from owning radio licences. Your task is to write a report for the Ministry: Should this ban go ahead? Does the evidence from Boas and Hidalgo provide strong justification for this ban? What do we learn and what do we <em>not</em> learn from their research?</p>
 <p>Later, we will begin your individual presentations of your own/assigned papers, and the rest of the class will be tasked with providing constructive critiques.</p>
 </div>
+<div id="data-analysis" class="section level2">
+<h2>Data Analysis</h2>
+<p>How much do we learn from the regression discontinuity results estimated in Day 3? First, we will implement some robustness checks:</p>
+<ol style="list-style-type: decimal">
+<li><p>Our regression discontinuity assumed a <em>linear</em> relationship between distance to a tied election and subsequent electoral performance. Implement an alternative regression discontinuity with a more flexible quadratic relationship. How do the results differ?</p></li>
+<li><p>What about a cubic relationship?</p></li>
+<li><p>An alternative way to implement the regression discontinuity is to limit the data to only those units ‘close’ to the threshold of a tied election. Remove any data that is more than +/-5% from the threshold and run your (linear) regression discontinuity again. How do the results change?</p></li>
+<li><p>Estimating the uncertainty (standard errors) for regression discontinuities is tricky. The ‘correct’ way to do it has been programmed in the ‘rdrobust’ package. Implement the (linear) regression discontinuity in rdrobust and compare the standard errors</p></li>
+</ol>
+<p>We can also replicate the study with a different data sample:</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Use the data for the 2012 and 2016 elections to implement a new regression discontinuity. Is the relationship the same as the results you estimated for 2000-04?</li>
+</ol>
+<p>What about the scope of our conclusions?</p>
+<ol start="6" style="list-style-type: decimal">
+<li><p>To assess how different units near the threshold might be, let’s compare which parties are most represented near to the threshold (+/-5%) with those that win or lose by a landslide (win or lose by more than 20%).</p></li>
+<li><p>Based on the above tests, how generalizable do you believe the findings in Titiunik 2011 to be?</p></li>
+</ol>
 </div>
 
 

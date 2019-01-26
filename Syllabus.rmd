@@ -96,6 +96,9 @@ We consider various strategies and techniques for overcoming weaknesses in an ar
 
 *Readings:* 
 
+- Miller, Beth et al (2017), How To Be a Peer Reviewer: A Guide for Recent and Soon-to-be PhDs, Political Science & Politics
+- Brady, Henry E. (2004), Data-Set Observations versus Causal-Process
+Observations: The 2000 U.S. Presidential Election
 - Kocker, Matthew Adam and Nuno P. Monteiro (2015), What's in a Line? Natural Experiments and the Line of Demarcation in WWII Occupied France
 - Nunn, Nathan (2011), The Slave Trade and the Origins of Mistrust in Africa, American Economic Review 101 (7) (December): 3221–3252
 - Kosec, Katrina (2011), Politics and Preschool The Political Economy of Investment in Pre-Primary Education

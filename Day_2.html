@@ -213,18 +213,30 @@ $(document).ready(function () {
 </div>
 
 
-<div id="morning" class="section level1">
-<h1>Morning</h1>
-<p><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%201/Slides_Day_2_v2.pdf">Lecture Slides</a></p>
+<div id="morning" class="section level2">
+<h2>Morning</h2>
+<p><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%202/Slides_Day_2_v2.pdf">Lecture Slides</a></p>
+</div>
 <div id="afternoon" class="section level2">
 <h2>Afternoon</h2>
-<p>In pairs, actively read the following papers and prepare multiple critiques of each study, which you will present later. Try to make critiques of each of (i) omitted variable bias, (ii) self-selection bias and (iii) reverse causation.</p>
+<p>Imagine you are asked to review some articles for a journal. In pairs, actively read the following papers and prepare multiple critiques of each study, which you will present later. Try to critique each paper for (i) omitted variable bias, (ii) self-selection bias and (iii) reverse causation. Include a causal diagram which highlights the problems you have identified.</p>
 <ol style="list-style-type: lower-alpha">
 <li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%202/Papers%20for%20Critique/Mancuso%20et%20al%202016.pdf">Mancuso et al 2016</a></li>
 <li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%202/Papers%20for%20Critique/Harding%20and%20Stasavage%202013.pdf">Harding and Stasavage 2013</a></li>
 <li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%202/Papers%20for%20Critique/Humphreys%20and%20Weinstein%202007.pdf">Humphreys and Weinstein 2007</a></li>
 </ol>
 </div>
+<div id="data-analysis" class="section level2">
+<h2>Data Analysis</h2>
+<p>Using your dataset from Day 1, what would the answer to our research question be using an ‘observational’ methodology?</p>
+<ol style="list-style-type: decimal">
+<li><p>Conduct a basic regression of incumbency status on (your measure of) electoral performance in 2004. Interpret the results. (Hint: Make sure your measure of distance to the tied election has negative values for the losers).</p></li>
+<li><p>Are these results consistent with the finding in Titiunik 2011?</p></li>
+<li><p>Briefly describe the treatment assignment process.</p></li>
+<li><p>One causal critique might be that there is omitted variable bias: More effective or popular parties are more likely to become incumbents and also to perform better at the next election. To try and adjust for this, add a control for party (equivalently, a fixed effect for party). How does this affect the results?</p></li>
+<li><p>What happens if we add a control for state (‘UF’)?</p></li>
+<li><p>A different causal critique is that there may be selection bias. Perhaps incumbent parties who realized they are unpopular decided not to run again? We do not have these parties in our 2004 dataset. To estimate how severe this problem <em>might</em> be, calculate what percentage of parties decided to run again in 2004. (You may have to open the original datasets from Day 1 again, depending on how you joined your data).</p></li>
+</ol>
 </div>
 
 

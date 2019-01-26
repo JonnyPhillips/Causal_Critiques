@@ -9,14 +9,30 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Morning
+## Morning
 
-[Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Slides_Day_2_v2.pdf)
+[Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Slides_Day_2_v2.pdf)
 
 ## Afternoon
 
-In pairs, actively read the following papers and prepare multiple critiques of each study, which you will present later. Try to make critiques of each of (i) omitted variable bias, (ii) self-selection bias and (iii) reverse causation.
+Imagine you are asked to review some articles for a journal. In pairs, actively read the following papers and prepare multiple critiques of each study, which you will present later. Try to critique each paper for (i) omitted variable bias, (ii) self-selection bias and (iii) reverse causation. Include a causal diagram which highlights the problems you have identified.
 
 a. [Mancuso et al 2016](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Papers for Critique/Mancuso et al 2016.pdf)
 b. [Harding and Stasavage 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Papers for Critique/Harding and Stasavage 2013.pdf)
 c. [Humphreys and Weinstein 2007](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Papers for Critique/Humphreys and Weinstein 2007.pdf)
+
+## Data Analysis
+
+Using your dataset from Day 1, what would the answer to our research question be using an 'observational' methodology? 
+
+1. Conduct a basic regression of incumbency status on (your measure of) electoral performance in 2004. Interpret the results. (Hint: Make sure your measure of distance to the tied election has negative values for the losers).
+
+2. Are these results consistent with the finding in Titiunik 2011? 
+
+3. Briefly describe the treatment assignment process.
+
+3. One causal critique might be that there is omitted variable bias: More effective or popular parties are more likely to become incumbents and also to perform better at the next election. To try and adjust for this, add a control for party (equivalently, a fixed effect for party). How does this affect the results?
+
+4. What happens if we add a control for state ('UF')?
+
+5. A different causal critique is that there may be selection bias. Perhaps incumbent parties who realized they are unpopular decided not to run again? We do not have these parties in our 2004 dataset. To estimate how severe this problem *might* be, calculate what percentage of parties decided to run again in 2004. (You may have to open the original datasets from Day 1 again, depending on how you joined your data).
