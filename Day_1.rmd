@@ -27,7 +27,7 @@ d. [Titiunik 2011](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers
 
 For the next five days we will use the study by [Titiunik 2011](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Papers/Titiunik 2011.pdf) to help understand what is happening in the data when we make a causal argument/critique.
 
-The research question is "Does incumbency in Brazil improve your performance at the next election?". The research methodology is a regression discontinuity comparing close winners and losers. Use the [Mayoral Election Data from 2000](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Replication/2000 Mayoral Elections Data.csv) and [Mayoral Election Data from 2004](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Replication/2004 Mayoral Elections Data.csv) and need to prepare them for the analysis by following the questions below (but do not do the analysis itself). 
+The research question is "Does incumbency in Brazil improve your performance at the next election?". The research methodology is a regression discontinuity comparing close winners and losers. Use the [Mayoral Election Data from 2000](https://jonnyphillips.github.io/Causal_Critiques/Replication/2000 Mayoral Elections Data.csv) and [Mayoral Election Data from 2004](https://jonnyphillips.github.io/Causal_Critiques/Replication/2004 Mayoral Elections Data.csv) and need to prepare them for the analysis by following the questions below (but do not do the analysis itself). 
 
 1. What is the data sample used to answer the research question? What alternative data samples might have been used?
 
