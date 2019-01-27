@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  23 JAN 2019 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  27 JAN 2019 10:04
 entering extended mode
 **./Slides_Day_2_v2.tex
 (Slides_Day_2_v2.tex
@@ -1525,189 +1525,246 @@ LaTeX Font Info:    Font shape `T1/fav/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 134.
  [3
 
+] [4
+
+] [5
+
 ]
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 149.
+(Font)              scaled to size 9.60007pt on input line 180.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 149.
+(Font)              scaled to size 7.29605pt on input line 180.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 149.
+(Font)              scaled to size 9.60007pt on input line 180.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 149.
- [4
+(Font)              scaled to size 7.29605pt on input line 180.
+ [6
 
-] <chart_1.pdf, id=47, 2087.8pt x 823.075pt>
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf>
-Package pdftex.def Info: chart_1.pdf used on input line 152.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+] <chart_1.pdf, id=95, 2087.8pt x 823.075pt>
 File: chart_1.pdf Graphic file (type pdf)
 
 <use chart_1.pdf>
-Package pdftex.def Info: chart_1.pdf used on input line 152.
+Package pdftex.def Info: chart_1.pdf used on input line 183.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_1.pdf, id=50, page=1, 2087.8pt x 823.075pt>
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf>
+Package pdftex.def Info: chart_1.pdf used on input line 183.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+
+<chart_1.pdf, id=98, page=1, 2087.8pt x 823.075pt>
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_1.pdf Graphic file (type pdf)
 
 <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 152.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 152.
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_1.pdf Graphic file (type pdf)
  <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 152.
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_1.pdf Graphic file (type pdf)
 
 <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 152.
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 152.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [5
+ [7
 
  <./chart_1.pdf>]
-<chart_2.pdf, id=83, 2087.8pt x 823.075pt>
+<chart_2.pdf, id=132, 2087.8pt x 823.075pt>
 File: chart_2.pdf Graphic file (type pdf)
  <use chart_2.pdf>
-Package pdftex.def Info: chart_2.pdf used on input line 155.
+Package pdftex.def Info: chart_2.pdf used on input line 186.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf>
-Package pdftex.def Info: chart_2.pdf used on input line 155.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 
-<chart_2.pdf, id=86, page=1, 2087.8pt x 823.075pt>
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 155.
+<use chart_2.pdf>
+Package pdftex.def Info: chart_2.pdf used on input line 186.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+ <chart_2.pdf, id=135, page=1, 2087.8pt x 823.075pt>
 File: chart_2.pdf Graphic file (type pdf)
 
 <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 155.
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_2.pdf Graphic file (type pdf)
  <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 155.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 155.
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_2.pdf Graphic file (type pdf)
 
 <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 155.
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [6 <./chart_2.pdf>]
-<chart_3.pdf, id=119, 2087.8pt x 823.075pt>
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+ [8 <./chart_2.pdf>]
+<chart_3.pdf, id=168, 2087.8pt x 823.075pt>
 File: chart_3.pdf Graphic file (type pdf)
  <use chart_3.pdf>
-Package pdftex.def Info: chart_3.pdf used on input line 158.
+Package pdftex.def Info: chart_3.pdf used on input line 189.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_3.pdf Graphic file (type pdf)
 
 <use chart_3.pdf>
-Package pdftex.def Info: chart_3.pdf used on input line 158.
+Package pdftex.def Info: chart_3.pdf used on input line 189.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_3.pdf, id=122, page=1, 2087.8pt x 823.075pt>
+ <chart_3.pdf, id=171, page=1, 2087.8pt x 823.075pt>
 File: chart_3.pdf Graphic file (type pdf)
 
 <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 158.
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_3.pdf Graphic file (type pdf)
  <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 158.
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_3.pdf Graphic file (type pdf)
  <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 158.
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_3.pdf Graphic file (type pdf)
 
 <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 158.
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_3.pdf Graphic file (type pdf)
  <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 158.
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [7 <./chart_3.pdf>]
-<chart_4.pdf, id=156, 2087.8pt x 823.075pt>
+ [9 <./chart_3.pdf>]
+<chart_4.pdf, id=204, 2087.8pt x 823.075pt>
 File: chart_4.pdf Graphic file (type pdf)
  <use chart_4.pdf>
-Package pdftex.def Info: chart_4.pdf used on input line 161.
+Package pdftex.def Info: chart_4.pdf used on input line 192.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_4.pdf Graphic file (type pdf)
 
 <use chart_4.pdf>
-Package pdftex.def Info: chart_4.pdf used on input line 161.
+Package pdftex.def Info: chart_4.pdf used on input line 192.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_4.pdf, id=159, page=1, 2087.8pt x 823.075pt>
+ <chart_4.pdf, id=207, page=1, 2087.8pt x 823.075pt>
 File: chart_4.pdf Graphic file (type pdf)
 
 <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 161.
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
 (pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
 File: chart_4.pdf Graphic file (type pdf)
  <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 161.
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_4.pdf Graphic file (type pdf)
  <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 161.
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_4.pdf Graphic file (type pdf)
 
 <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 161.
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
 File: chart_4.pdf Graphic file (type pdf)
  <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 161.
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
 (pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [8 <./chart_4.pdf>]
-[9] [10
+ [10 <./chart_4.pdf>]
 
-]
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 207.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 207.
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<Chocolate.pdf, id=240, 457.71pt x 395.22656pt>
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf>
+Package pdftex.def Info: Chocolate.pdf used on input line 195.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 207--207
-\T1/fav/m/sc/10.95 United States com-pared
- []
 
-[11
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+File: Chocolate.pdf Graphic file (type pdf)
+<use Chocolate.pdf>
+Package pdftex.def Info: Chocolate.pdf used on input line 195.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
 
-] [12
 
-] [13
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<Chocolate.pdf, id=243, page=1, 457.71pt x 395.22656pt>
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+ [11 <./Chocolate.pdf>] [12] [13
 
 ] [14
 
-] [15
+]
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 259.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 259.
+
+Underfull \hbox (badness 1297) in paragraph at lines 259--259
+\T1/fav/m/sc/10.95 United States com-pared
+ []
+
+[15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+] [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []|\T1/fav/m/sc/10.95 Investment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []|\T1/fav/m/sc/10.95 Investment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 \T1/fav/m/sc/10.95 in Ed-u-ca-
  []
 
@@ -1715,37 +1772,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.297 \end{frame}
-                  [16
+l.365 \end{frame}
+                  [21
 
-] [17
+] [22
 
 ]
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 336.
+(Font)              scaled to size 8.64006pt on input line 404.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 336.
+(Font)              scaled to size 6.72005pt on input line 404.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 336.
+(Font)              scaled to size 8.64006pt on input line 404.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 336.
+(Font)              scaled to size 6.72005pt on input line 404.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/fav/m/n/9 PR Sys-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/fav/m/n/9 Ed-u-ca-tion if
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/fav/m/n/9 Ed-u-ca-tion if
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/fav/m/n/9 Treatment
  []
 
@@ -1753,24 +1810,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.336 \end{frame}
-                  [18
+l.404 \end{frame}
+                  [23
 
-] [19
+] [24
 
-] [20
+] [25
 
-] [21
+] [26
 
-] [22
+] [27
 
 ]
-Underfull \hbox (badness 2608) in paragraph at lines 409--409
+Underfull \hbox (badness 2608) in paragraph at lines 477--477
 []|\T1/fav/m/sc/10.95 Researcher con-trols the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 []|\T1/fav/m/sc/10.95 Treatment as-sign-ment
  []
 
@@ -1778,209 +1835,196 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 \end{frame}
+l.477 \end{frame}
                  
-Overfull \hbox (110.19595pt too wide) in paragraph at lines 409--409
+Overfull \hbox (110.19595pt too wide) in paragraph at lines 477--477
  [][][][] 
  []
 
-[23
-
-] [24
-
-] [25
-
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.468 \end{frame}
-                 
-Overfull \vbox (2.62276pt too high) detected at line 468
- []
-
-[26
-
-]
-Overfull \vbox (2.62276pt too high) detected at line 468
- []
-
-[27
-
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.497 \end{frame}
-                  [28
+[28
 
 ] [29
 
 ] [30
 
-] [31
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.538 \end{frame}
+                 
+Overfull \vbox (2.62276pt too high) detected at line 538
+ []
 
-] [32
+[31
 
-] [33
+]
+Overfull \vbox (2.62276pt too high) detected at line 538
+ []
+
+[32
+
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.567 \end{frame}
+                  [33
 
 ] [34
 
 ] [35
 
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
 ]
-<figure/unnamed-chunk-1-1.pdf, id=363, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 629.
 
-<use figure/unnamed-chunk-1-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 555.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [36
+(C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 629.
+ [41
 
- <./figure/unnamed-chunk-1-1.pdf>]
-<figure/unnamed-chunk-2-1.pdf, id=379, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
+]
+[42
 
-<use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 564.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [37
-
- <./figure/unnamed-chunk-2-1.pdf>]
-<figure/unnamed-chunk-3-1.pdf, id=396, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-3-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-3-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf used on input line 573.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [38
-
- <./figure/unnamed-chunk-3-1.pdf>]pdfTeX warning (ext4): destination with the s
-ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.607 \end{frame}
+l.676 \end{frame}
                  
-Overfull \vbox (0.60248pt too high) detected at line 607
+Overfull \vbox (15.84499pt too high) detected at line 676
  []
 
-[39
+[43
 
 ]
-Overfull \vbox (0.60248pt too high) detected at line 607
+Overfull \vbox (15.84499pt too high) detected at line 676
  []
 
-[40
+[44
 
 ]
-Overfull \vbox (0.60248pt too high) detected at line 607
- []
-
-[41
-
-] [42
-
-] <figure/unnamed-chunk-4-1.pdf, id=436, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 628.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [43
-
- <./figure/unnamed-chunk-4-1.pdf>]
-<figure/unnamed-chunk-5-1.pdf, id=453, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 637.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [44
-
- <./figure/unnamed-chunk-5-1.pdf>]pdfTeX warning (ext4): destination with the s
-ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.672 \end{frame}
-                 
-Overfull \vbox (15.84499pt too high) detected at line 672
+Overfull \vbox (15.84499pt too high) detected at line 676
  []
 
 [45
 
-]
-Overfull \vbox (15.84499pt too high) detected at line 672
- []
+] [46
 
-[46
-
-]
-Overfull \vbox (15.84499pt too high) detected at line 672
- []
-
-[47
+] [47
 
 ] [48
 
-] <figure/unnamed-chunk-6-1.pdf, id=493, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+]
+Overfull \vbox (15.84499pt too high) detected at line 746
+ []
 
-<use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 693.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [49
+[49
 
- <./figure/unnamed-chunk-6-1.pdf>]
-<figure/unnamed-chunk-7-1.pdf, id=510, 1003.75pt x 582.175pt>
-File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+]
+Overfull \vbox (15.84499pt too high) detected at line 746
+ []
 
-<use figure/unnamed-chunk-7-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 702.
-(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [50
+[50
 
- <./figure/unnamed-chunk-7-1.pdf>]
-Overfull \vbox (15.84499pt too high) detected at line 736
+]
+Overfull \vbox (15.84499pt too high) detected at line 746
  []
 
 [51
 
 ]
-Overfull \vbox (15.84499pt too high) detected at line 736
+Underfull \hbox (badness 10000) detected at line 757
+ []$[]   []$ []  
  []
 
 [52
 
 ]
-Overfull \vbox (15.84499pt too high) detected at line 736
+Underfull \hbox (badness 10000) detected at line 757
+ []$[]   []$ []  
  []
 
 [53
 
-] [54
-
 ]
-Underfull \hbox (badness 10000) detected at line 771
- []$[]   []$ []  
- []
-
-[55
-
-]
-Underfull \hbox (badness 10000) detected at line 771
- []$[]   []$ []  
- []
-
-[56
-
-]
-Overfull \hbox (4.15651pt too wide) detected at line 784
+Overfull \hbox (4.15651pt too wide) detected at line 770
  []$[] \OT1/zavm/m/n/10.95 + [] + []$ []  
  []
 
-[57
+[54
 
-] [58
+] [55
+
+] [56
+
+] [57
+
+]
+<figure/unnamed-chunk-5-1.pdf, id=677, 1003.75pt x 582.175pt>
+File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 829.
+(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
+ [58
+
+ <./figure/unnamed-chunk-5-1.pdf>]
+<figure/unnamed-chunk-6-1.pdf, id=696, 1003.75pt x 582.175pt>
+File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-6-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 838.
+(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
+ [59
+
+ <./figure/unnamed-chunk-6-1.pdf>]
+<figure/unnamed-chunk-7-1.pdf, id=715, 1003.75pt x 582.175pt>
+File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 847.
+(pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
+ [60
+
+ <./figure/unnamed-chunk-7-1.pdf>]pdfTeX warning (ext4): destination with the s
+ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.881 \end{frame}
+                 
+Overfull \vbox (0.60248pt too high) detected at line 881
+ []
+
+[61
+
+]
+Overfull \vbox (0.60248pt too high) detected at line 881
+ []
+
+[62
+
+]
+Overfull \vbox (0.60248pt too high) detected at line 881
+ []
+
+[63
+
+] [64
+
+] [65
 
 ]
 \tf@nav=\write6
@@ -1992,13 +2036,13 @@ Overfull \hbox (4.15651pt too wide) detected at line 784
 \tf@snm=\write8
 \openout8 = `Slides_Day_2_v2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 803.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 803.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 910.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 910.
  (Slides_Day_2_v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 803.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 803.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 910.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 910.
 Package rerunfilecheck Info: File `Slides_Day_2_v2.out' has not changed.
-(rerunfilecheck)             Checksum: CC3E76BBBB7AEBE26F150AC99DAF45FB;48.
+(rerunfilecheck)             Checksum: 0E5BA99D75AA28F49F8B8003938F94BC;201.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2008,27 +2052,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22484 strings out of 493333
- 434054 string characters out of 3139194
+ 22540 strings out of 493333
+ 434385 string characters out of 3139194
  514037 words of memory out of 3000000
- 25283 multiletter control sequences out of 15000+200000
- 73888 words of font info for 136 fonts, out of 3000000 for 9000
+ 25318 multiletter control sequences out of 15000+200000
+ 74829 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,59p,874b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevot1.enc}{
-C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevoml.enc}{C:/
-Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Jonny/AppData/Ro
+ 56i,19n,59p,874b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Jonny/AppD
+ata/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevot1.enc}{C:/Users/Jonny/AppData
+/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevoml.enc}<C:/Users/Jonny/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-Bold.pfb><C:/Users/Jonny/AppD
 ata/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-Oblique.pfb><C:/Users/J
 onny/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/
-Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7t.pf
-b><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-ch
-b7y.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch
-/md-chbma.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign
-/mdbch/md-chr7v.pfb>
-Output written on Slides_Day_2_v2.pdf (58 pages, 304425 bytes).
+Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/bera/fvmb8a.pfb><C:/Users/Jo
+nny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7t.pfb><C:/Us
+ers/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
+<C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chbm
+a.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/m
+d-chr7v.pfb>
+Output written on Slides_Day_2_v2.pdf (65 pages, 413787 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

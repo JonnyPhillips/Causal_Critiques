@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Morning
 
-[Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Slides_Day_2_v2.pdf)
+1. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Slides_Day_2_v2.pdf)
+2. [Exercises on Fundamental Critiques](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Day_2_exercises.html)
 
-## Afternoon
+## Afternoon - Practicing Critiques
 
 Imagine you are asked to review some articles for a journal. In pairs, actively read the following papers and prepare multiple critiques of each study, which you will present later. Try to critique each paper for (i) omitted variable bias, (ii) self-selection bias and (iii) reverse causation. Include a causal diagram which highlights the problems you have identified.
 
@@ -21,7 +22,7 @@ a. [Mancuso et al 2016](https://jonnyphillips.github.io/Causal_Critiques/Day 2/P
 b. [Harding and Stasavage 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Papers for Critique/Harding and Stasavage 2013.pdf)
 c. [Humphreys and Weinstein 2007](https://jonnyphillips.github.io/Causal_Critiques/Day 2/Papers for Critique/Humphreys and Weinstein 2007.pdf)
 
-## Data Analysis
+## Afternoon - Critiquing the Data
 
 Using your dataset from Day 1, what would the answer to our research question be using an 'observational' methodology? 
 

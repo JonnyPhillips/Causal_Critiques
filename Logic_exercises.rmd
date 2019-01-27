@@ -19,12 +19,12 @@ The following questions are designed to help you understand what makes an argume
 
 4. 2+2=5
 
-5. Every EU citizen can enter the us without a visa. Max is a citizen
+5. Every EU citizen can enter the US without a visa. Max is a citizen
 of Norway. Therefore Max can enter the US without a visa.
 
 6. That heavy vehicle crossed the bridge without any problem. And the bridge has not collapsed for more than three years. Therefore the bridge must have been well built. 
 
-7. If the creature in the box has eight legs, it’s a spider. The creature in the box is a spider. Therefore, The creature in the box has eight legs. 
+7. If the creature in the box has eight legs, it’s a spider. The creature in the box is a spider. Therefore the creature in the box has eight legs. 
 
 8. Our data says that Peter has three daughters and four sons, but Peter believes that people should not have more than two children. Therefore our data are wrong.
 

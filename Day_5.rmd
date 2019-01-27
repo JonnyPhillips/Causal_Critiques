@@ -13,11 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 5/Slides_Day_5_v1.pdf)
 
-## Afternoon
+## Afternoon - Practicing Critiques
 
 We will continue with your individual presentations of your own/assigned papers, and the rest of the class will be tasked with providing constructive critiques.
 
-## Data Analysis
+## Afternoon - Critiquing the Data
 
 1. If our theory is correct, we should *only* find an effect at the threshold (distance=0). Use the 'RDestimate' package to perform placebo tests with the threshold set to distance=0.1,-0.1,0.05 and -0.05. What do we learn from this test?
 

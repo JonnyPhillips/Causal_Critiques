@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Slides_Day_3_v2.pdf)
 
-## Afternoon
+## Afternoon - Practicing Critiques
 
 For each of the papers below:
 
@@ -26,7 +26,7 @@ For each of the papers below:
 2. [De La O 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/De_la_O_Do.pdf)
 3. [Olken 2009](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/Olken TV and Social Capital.pdf)
 
-## Data Analysis
+## Afternoon - Critiquing the Data
 
 To overcome the causal problems we saw yesterday, Titiunik implements a regression discontinuity. 
 
