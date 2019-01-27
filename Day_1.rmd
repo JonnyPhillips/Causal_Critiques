@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 1. Introduction to the Course
 2. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Slides_Day_1_v4.pdf)
 3. [Logic Exercises](https://jonnyphillips.github.io/Causal_Critiques/Logic_exercises.html)
+4. [Evaluating Aguments Exercise](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Evaluation_Exercises.html)
 
 ## Afternoon - Practicing Critiques
 
