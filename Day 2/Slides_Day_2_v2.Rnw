@@ -64,9 +64,13 @@
 \frametitle{What do political scientists \textbf{know}?}
 \begin{itemize}
 \item Door-to-door political campaigning works
+\pause
 \item Proportional Representation electoral systems have more parties
+\pause
 \item Democracies do not go to war with each other
+\pause
 \item Development helps democracies endure
+\pause
 \item ...And that's about it
 \end{itemize}
 \end{frame}
@@ -75,9 +79,12 @@
 \frametitle{What do political scientists \textbf{know}?}
 \begin{itemize}
 \item Thousands of books and papers have \textit{not} generated any knowledge about what explains political processes
+\pause
 \begin{itemize}
 \item Many add \textbf{descriptive} knowledge
+\pause
 \item Many investigate \textbf{specific} events, not generalizable variables
+\pause
 \item Many highlight \textbf{correlations} between variables
 \end{itemize}
 \end{itemize}
@@ -87,15 +94,22 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item Why aren't case studies enough?
+\pause
 \begin{itemize}
 \item If we want to know why some countries are more successful democracies than others, surely we have to examine the successful countries in detail?
+\pause
 \item Yes! But that's not \textit{sufficient}
+\pause
 \end{itemize}
 \item The problem is that there are many variables that \textit{could} explain success
+\pause
 \item And detailed case studies can help us identify plausible hypotheses
+\pause
 \item But the only way to \textit{confirm} the hypothesis is to verify that:
+\pause
 \begin{enumerate}
 \item In other cases, the presence of the condition also produces the same outcome (if not, the explanation is not sufficient)
+\pause
 \item The absence of the condition does not produce the same outcome (if not, the explanation is not necessary)
 \end{enumerate}
 \end{itemize}
@@ -105,9 +119,12 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item For example, we could look at India and conclude large Asian countries produce successful democracies
+\pause
 \begin{itemize}
 \item But...China
+\pause
 \item But...Costa Rica
+\pause
 \end{itemize}
 \item Only by looking at other cases, particularly 'control' cases (small non-Asian countries) can we understand if this explanation is plausible
 \end{itemize}
@@ -117,14 +134,21 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item Even when we compare multiple cases: 
+\pause
 \item \textbf{Correlation is not causation}
+\pause
 \begin{itemize}
 \item If we look hard enough we can always find correlations
+\pause
 \item By chance...
+\pause
 \item Due to complex social patterns...
+\pause
 \item But we cannot conclude that there is a causal effect of $x$ on $y$
+\pause
 \end{itemize}
 \item \textit{More} data will not help
+\pause
 \item The problem is the \textit{type} of data; it does not allow us to answer causal question 
 \end{itemize}
 \end{frame}
@@ -148,9 +172,12 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item Why isn't correlation enough?
+\pause
 \begin{itemize}
 \item For \textit{prediction}, correlation is fine: If we know a country has income of US\$50,000 per capita we can confidently predict it is perceived as being less corrupt
+\pause
 \item But for \textit{intervention}, correlation does not help: investing to boost the economy does nothing on its own to reduce corruption
+\pause
 \end{itemize}
 \item So if we want to provide policy-relevant advice, we need to know more than just correlation
 \end{itemize}
@@ -162,7 +189,7 @@
 \item Why isn't correlation enough?
 \begin{itemize}
 \item For \textit{explanation}, correlation also fails - it is no \textit{explanation} to say that you are a student because you are in your 20's
-\item Explanation means identifying the direct causal effects
+\item Explanation means identifying the direct and 'local' causal effects
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -171,15 +198,21 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item Why isn't correlation enough?
+\pause
 \begin{itemize}
-\item People are strategic, so their behaviour changes
+\item People are \textbf{strategic}, so their behaviour changes
+\pause
 \end{itemize}
 \item \textbf{The Lucas Critique}: Relationships fall apart when we intervene with policy
 \begin{itemize}
 \item The data shows no-one lies on their tax forms
+\pause
 \item So let's abandon tax checks; the government wants to save money
+\pause
 \item But reducing checks reduces the chances of getting caught
+\pause
 \item Citizens start to lie on their tax forms
+\pause
 \end{itemize}
 \item That means we need to understand what \textit{causes} people to lie on tax forms, so we can better understand their behaviour
 \end{itemize}
@@ -189,8 +222,10 @@
 \frametitle{Learning from Data}
 \begin{itemize}
 \item To accumulate knowledge, we have to ask specific types of questions:
+\pause
 \begin{itemize}
 \item Specifically, about the \textbf{effects of causes}
+\pause
 \end{itemize}
 \end{itemize}
 \begin{table}[htbp]
@@ -213,11 +248,15 @@
 \begin{frame}
 \frametitle{Causal Inference}
 \begin{itemize}
-\item A focus on a single explanatory variable $X$ requires us to clearly define this 'treatment' 
+\item A focus on a single explanatory variable $D$ requires us to clearly define this 'treatment' 
+\pause
 \item AND to clearly define a control
+\pause
 \begin{itemize}
 \item What is the opposite of investing \$1bn in education?
+\pause
 \item No investment, or investing it elsewhere?
+\pause
 \end{itemize}
 \item Define treatment:
 \end{itemize}
@@ -233,12 +272,17 @@
 \frametitle{Causal Inference}
 \begin{itemize}
 \item Defining our outcome is also crucial:
+\pause
 \begin{itemize}
 \item Can we measure our outcome of interest?
+\pause
 \item Is that outcome the end of the causal chain?
+\pause
 \item Tempting to look at many outcomes, but the risk of cherry-picking
+\pause
 \begin{itemize}
 \item All outcomes are probabilistic
+\pause
 \item If we study 20 outcomes, on average one will show a significant effect even with no real causal effect
 \end{itemize}
 \end{itemize}
@@ -249,9 +293,12 @@
 \frametitle{Causal Inference}
 \begin{itemize}
 \item We want to know how some variable affects another variable
+\pause
 \item eg. how a proportional representation electoral system affects investment in education
+\pause
 \begin{itemize}
 \item The \textbf{treatment} is a change to a PR electoral system (vs FPTP)
+\pause
 \item The \textbf{outcome} is the level of (public?) investment in education
 \end{itemize}
 \end{itemize}
@@ -261,7 +308,9 @@
 \frametitle{Causal Inference}
 \begin{itemize}
 \item So we need a precise framework to analyze causation
+\pause
 \item The causal effect of treatment is how the unit's outcome differs when it is treated and not treated
+\pause
 \item These are the \textbf{potential outcomes} for unit $i$:
 \[
 Y_{Di} = 
@@ -278,11 +327,16 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item We are relying on \textbf{counterfactuals}
+\pause
 \begin{itemize}
 \item What would have happened to the same unit if the treatment had not happened?
+\pause
 \item Would World War I still have happened if Archduke Franz Ferdinand had not been assassinated in 1914?
+\pause
 \item Would people have voted for Brexit if the campaign had been better regulated? 
+\pause
 \item Would Brazil have won the 2014 World Cup if Neymar had not been injured?
+\pause
 \end{itemize}
 \item To explain a class of events - not a single event - we need multiple counterfactual comparisons
 \end{itemize}
@@ -318,8 +372,10 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item \textbf{The Fundamental Problem of Causal Inference}
+\pause
 \begin{itemize}
 \item No units can receive \textbf{both} treatment and control
+\pause
 \item So we can never observe both $Y_1$ and $Y_0$ for the same unit
 \end{itemize}
 \end{itemize}
@@ -357,8 +413,10 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item We can't even look at the change in countries that switch to a PR system
+\pause
 \begin{itemize}
 \item What if \textbf{all} countries had started to invest more in education at the same time, for different reasons?
+\pause
 \item The potential outcome for Country X in time 1 is different to at time 2
 \end{itemize}
 \end{itemize}
@@ -368,9 +426,12 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item So we need to consider the \textbf{counterfactual} - what would have happened if the country had \textbf{not} switched to a PR system?
+\pause
 \begin{itemize}
 \item This is \textbf{impossible} to know
+\pause
 \item We can only estimate the effect by comparing \textbf{across} units in some way
+\pause
 \item That is why we are doing causal \textbf{inference}, not causal proof
 \end{itemize}
 \end{itemize}
@@ -380,8 +441,11 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item Which comparisons to make? 
+\pause
 \item Control units can never be perfect substitutes
+\pause
 \item Causal Inference is all about identifying a \textbf{plausible counterfactual}
+\pause
 \begin{itemize}
 \item Plausible means that the potential outcomes of the control unit are likely to be the same as those of the treated unit
 \end{itemize}
@@ -392,11 +456,15 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Causal Inference}
 \begin{itemize}
 \item The comparability of treatment and control units depends on \textit{how} they got to be treated
+\pause
 \begin{itemize}
 \item On the \textbf{Treatment Assignment Mechanism}
+\pause
 \end{itemize}
 \item If we 'treated' an outlier like the Galapagos Islands, could we find a comparable control unit?
+\pause
 \item Comparisons are easier where the \textbf{Treatment Assignment Mechanism is independent of potential outcomes}
+\pause
 \begin{itemize}
 \item This makes it more likely that potential outcomes are 'balanced' and comparable
 \end{itemize}
@@ -413,7 +481,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
   \caption{Add caption}
     \begin{tabular}{|>{\raggedright}p{5cm}|p{5cm}|p{5cm}|}
     \toprule
-          & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes \\
+          & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes ('Conditional Independence') \\
     \midrule
     Controlled Experiments & Yes   & Yes \\
     \midrule
@@ -432,6 +500,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item Observational Studies
+\pause
 \begin{itemize}
 \item Household surveys
 \item Simple regression on secondary data
@@ -444,10 +513,13 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item We do not know what the treatment assignment mechanism was
+\pause
 \begin{itemize}
 \item Which units were treated and why?
+\pause
 \end{itemize}
 \item Treatment assignment is unlikely to create comparable potential outcomes
+\pause
 \begin{itemize}
 \item Which units might be appropriate counterfactuals?
 \end{itemize}
@@ -458,6 +530,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item With complete information on potential outcomes, calculating treatment effects is trivial
+\pause
 \end{itemize}
 \begin{table}[htbp]
   \centering
@@ -491,6 +564,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item From observed outcomes can we calculate an Average Treatment Effect?
+\pause
 \end{itemize}
 \begin{table}[htbp]
   \centering
@@ -520,6 +594,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item If we use the control units as counterfactuals...
+\pause
 \item Average Treatment Effect:
 \begin{align}
 ATE &=& E(Y_1) - E(Y_0) \\
@@ -543,11 +618,13 @@ ATE &=& E(Y_1) - E(Y_0) \\
 \frametitle{Problems with Observational Data}
 \begin{itemize}
 \item The bias in units' potential outcomes depends on which units get treated and which ones don't
+\pause
 \item In observational studies, we have very little protection against causal critiques
+\pause
 \begin{enumerate}
-\item Reverse Causation
 \item Omitted variable bias (confounding)
 \item Selection bias
+\item Reverse Causation
 \end{enumerate}
 \end{itemize}
 \end{frame}
@@ -558,9 +635,12 @@ ATE &=& E(Y_1) - E(Y_0) \\
 \frametitle{Omitted Variable Bias}
 \begin{itemize}
 \item Wealthier countries are more likely to be democracies
+\pause
 \begin{itemize}
 \item But wealthier countries are more likely to be European
+\pause
 \item And democracies are more likely to be European
+\pause
 \end{itemize}
 \item Maybe the correlation just reflects the fact that European countries are 'different'?
 \end{itemize}
@@ -627,9 +707,12 @@ render_graph(graph)
 \frametitle{Self-Selecion Bias}
 \begin{itemize}
 \item Wealthier countries are more likely to be democracies
+\pause
 \begin{itemize}
 \item But wealthy autocracies and poor democracies do not like to report data
+\pause
 \item So we cannot compare them
+\pause
 \item Only wealthy democracies 'self-select' into our sample
 \end{itemize}
 \end{itemize}
@@ -756,11 +839,15 @@ NB: For equal-sized treatment and control groups
 \frametitle{Reverse Causation}
 \begin{itemize}
 \item Wealthier countries are more likely to be democracies
+\pause
 \begin{itemize}
 \item But does wealth create democracy?
+\pause
 \item Or democracy create wealth?
+\pause
 \end{itemize}
 \item We cannot tell from the correlation alone
+\pause
 \item Both may be true
 \end{itemize}
 \end{frame}
@@ -837,11 +924,16 @@ render_graph(graph)
 \frametitle{Exercise}
 \begin{itemize}
 \item Does fruit make you happier? 
+\pause
 \begin{itemize}
 \item Write down on a piece of paper a number between 0 and 10 representing how happy you would be if I gave you an apple now. 
+\pause
 \item Label this number $Y_1$.
+\pause
 \item Then write down a second number between 0 and 10 representing how happy you would be if I did NOT give you an apple now. 
+\pause
 \item Label this number $Y_0$.
+\pause
 \end{itemize}
 \item These are your \textbf{potential outcomes}.
 \end{itemize}
@@ -851,10 +943,14 @@ render_graph(graph)
 \frametitle{Exercise}
 \begin{itemize}
 \item Now we will consider how estimates of the average effect of fruit on happiness vary depending on how treatment (apples) are assigned.
+\pause
 \begin{enumerate}
 \item All the female participants are given an apple.
+\pause
 \item The tallest half are given an apple.
+\pause
 \item You are free to choose yourself to take an apple or not.
+\pause
 \item Apples are distributed randomly
 \end{enumerate}
 \end{itemize}
@@ -862,4 +958,3 @@ render_graph(graph)
 
 \end{document}
  
- % effects of causes vs. reverse

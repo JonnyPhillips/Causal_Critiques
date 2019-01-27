@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  27 JAN 2019 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  27 JAN 2019 21:24
 entering extended mode
 **./Slides_Day_2_v2.tex
 (Slides_Day_2_v2.tex
@@ -1449,369 +1449,132 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 pdftex.map}
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+zavm on input line 122
+LaTeX Font Info:    Try loading font information for OT1+zavm on input line 126
 .
 
 (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
-LaTeX Font Info:    Try loading font information for OML+zavm on input line 122
+LaTeX Font Info:    Try loading font information for OML+zavm on input line 126
 .
 
 (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zavm on input line 122
+LaTeX Font Info:    Try loading font information for OMS+zavm on input line 126
 .
 
 (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 12
-2.
+6.
 
 (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.
 fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 122.
+(Font)              scaled to size 7.68005pt on input line 126.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 122.
+(Font)              scaled to size 5.76004pt on input line 126.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 122.
-LaTeX Font Info:    Try loading font information for U+msa on input line 122.
+(Font)              scaled to size 4.80003pt on input line 126.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 12
-2.
+6.
 
 (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.
 fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 122.
+(Font)              scaled to size 7.68005pt on input line 126.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 122.
+(Font)              scaled to size 5.76004pt on input line 126.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 122.
-LaTeX Font Info:    Try loading font information for U+zavm on input line 122.
+(Font)              scaled to size 4.80003pt on input line 126.
+LaTeX Font Info:    Try loading font information for U+zavm on input line 126.
  (C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
 
 LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
-(Font)              using `T1/fav/m/n' instead on input line 122.
+(Font)              using `T1/fav/m/n' instead on input line 126.
 
 
 LaTeX Font Warning: Font shape `T1/fav/bx/sc' undefined
-(Font)              using `T1/fav/bx/n' instead on input line 122.
+(Font)              using `T1/fav/bx/n' instead on input line 126.
 
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 122.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 126.
 [2
 
 ]
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `T1/fav/bx/sc' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 126.
  [3
 
 ] [4
 
 ] [5
 
+] [6
+
 ]
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 180.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 180.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 180.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 180.
- [6
-
-] <chart_1.pdf, id=95, 2087.8pt x 823.075pt>
-File: chart_1.pdf Graphic file (type pdf)
-
-<use chart_1.pdf>
-Package pdftex.def Info: chart_1.pdf used on input line 183.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf>
-Package pdftex.def Info: chart_1.pdf used on input line 183.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-
-<chart_1.pdf, id=98, page=1, 2087.8pt x 823.075pt>
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_1.pdf Graphic file (type pdf)
-
-<use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_1.pdf Graphic file (type pdf)
- <use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_1.pdf Graphic file (type pdf)
-
-<use chart_1.pdf, page 1>
-Package pdftex.def Info: chart_1.pdf, page1 used on input line 183.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 141.
  [7
 
- <./chart_1.pdf>]
-<chart_2.pdf, id=132, 2087.8pt x 823.075pt>
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf>
-Package pdftex.def Info: chart_2.pdf used on input line 186.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_2.pdf Graphic file (type pdf)
+] [8
 
-<use chart_2.pdf>
-Package pdftex.def Info: chart_2.pdf used on input line 186.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_2.pdf, id=135, page=1, 2087.8pt x 823.075pt>
-File: chart_2.pdf Graphic file (type pdf)
+] [9
 
-<use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_2.pdf Graphic file (type pdf)
+] [10
 
-<use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_2.pdf Graphic file (type pdf)
- <use chart_2.pdf, page 1>
-Package pdftex.def Info: chart_2.pdf, page1 used on input line 186.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [8 <./chart_2.pdf>]
-<chart_3.pdf, id=168, 2087.8pt x 823.075pt>
-File: chart_3.pdf Graphic file (type pdf)
- <use chart_3.pdf>
-Package pdftex.def Info: chart_3.pdf used on input line 189.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_3.pdf Graphic file (type pdf)
+] [11
 
-<use chart_3.pdf>
-Package pdftex.def Info: chart_3.pdf used on input line 189.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_3.pdf, id=171, page=1, 2087.8pt x 823.075pt>
-File: chart_3.pdf Graphic file (type pdf)
+] [12
 
-<use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_3.pdf Graphic file (type pdf)
- <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_3.pdf Graphic file (type pdf)
- <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_3.pdf Graphic file (type pdf)
-
-<use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_3.pdf Graphic file (type pdf)
- <use chart_3.pdf, page 1>
-Package pdftex.def Info: chart_3.pdf, page1 used on input line 189.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [9 <./chart_3.pdf>]
-<chart_4.pdf, id=204, 2087.8pt x 823.075pt>
-File: chart_4.pdf Graphic file (type pdf)
- <use chart_4.pdf>
-Package pdftex.def Info: chart_4.pdf used on input line 192.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_4.pdf Graphic file (type pdf)
-
-<use chart_4.pdf>
-Package pdftex.def Info: chart_4.pdf used on input line 192.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
- <chart_4.pdf, id=207, page=1, 2087.8pt x 823.075pt>
-File: chart_4.pdf Graphic file (type pdf)
-
-<use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
-(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
-File: chart_4.pdf Graphic file (type pdf)
- <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_4.pdf Graphic file (type pdf)
- <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_4.pdf Graphic file (type pdf)
-
-<use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
-File: chart_4.pdf Graphic file (type pdf)
- <use chart_4.pdf, page 1>
-Package pdftex.def Info: chart_4.pdf, page1 used on input line 192.
-(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
- [10 <./chart_4.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<Chocolate.pdf, id=240, 457.71pt x 395.22656pt>
-File: Chocolate.pdf Graphic file (type pdf)
- <use Chocolate.pdf>
-Package pdftex.def Info: Chocolate.pdf used on input line 195.
-(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-File: Chocolate.pdf Graphic file (type pdf)
-<use Chocolate.pdf>
-Package pdftex.def Info: Chocolate.pdf used on input line 195.
-(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<Chocolate.pdf, id=243, page=1, 457.71pt x 395.22656pt>
-File: Chocolate.pdf Graphic file (type pdf)
-
-<use Chocolate.pdf, page 1>
-Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
-(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
-File: Chocolate.pdf Graphic file (type pdf)
- <use Chocolate.pdf, page 1>
-Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
-(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
-File: Chocolate.pdf Graphic file (type pdf)
-
-<use Chocolate.pdf, page 1>
-Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
-(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
-File: Chocolate.pdf Graphic file (type pdf)
- <use Chocolate.pdf, page 1>
-Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
-(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
-File: Chocolate.pdf Graphic file (type pdf)
-
-<use Chocolate.pdf, page 1>
-Package pdftex.def Info: Chocolate.pdf, page1 used on input line 195.
-(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
- [11 <./Chocolate.pdf>] [12] [13
+] [13
 
 ] [14
 
-]
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 259.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 259.
-
-Underfull \hbox (badness 1297) in paragraph at lines 259--259
-\T1/fav/m/sc/10.95 United States com-pared
- []
-
-[15
+] [15
 
 ] [16
 
 ] [17
 
-] [18
+]
+[18
 
 ] [19
 
 ] [20
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|\T1/fav/m/sc/10.95 Investment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|\T1/fav/m/sc/10.95 Investment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-\T1/fav/m/sc/10.95 in Ed-u-ca-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.365 \end{frame}
-                  [21
+] [21
 
 ] [22
 
 ]
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 404.
+(Font)              scaled to size 9.60007pt on input line 204.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 404.
+(Font)              scaled to size 7.29605pt on input line 204.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 404.
+(Font)              scaled to size 9.60007pt on input line 204.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 404.
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/fav/m/n/9 PR Sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\T1/fav/m/n/9 Ed-u-ca-tion if
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\T1/fav/m/n/9 Ed-u-ca-tion if
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/fav/m/n/9 Treatment
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.404 \end{frame}
-                  [23
+(Font)              scaled to size 7.29605pt on input line 204.
+ [23
 
 ] [24
 
@@ -1821,63 +1584,200 @@ l.404 \end{frame}
 
 ] [27
 
-]
-Underfull \hbox (badness 2608) in paragraph at lines 477--477
-[]|\T1/fav/m/sc/10.95 Researcher con-trols the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
-[]|\T1/fav/m/sc/10.95 Treatment as-sign-ment
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.477 \end{frame}
-                 
-Overfull \hbox (110.19595pt too wide) in paragraph at lines 477--477
- [][][][] 
- []
-
-[28
+] [28
 
 ] [29
 
 ] [30
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.538 \end{frame}
-                 
-Overfull \vbox (2.62276pt too high) detected at line 538
- []
-
-[31
-
 ]
-Overfull \vbox (2.62276pt too high) detected at line 538
- []
+<chart_1.pdf, id=315, 2087.8pt x 823.075pt>
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf>
+Package pdftex.def Info: chart_1.pdf used on input line 207.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_1.pdf Graphic file (type pdf)
 
-[32
+<use chart_1.pdf>
+Package pdftex.def Info: chart_1.pdf used on input line 207.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+ <chart_1.pdf, id=318, page=1, 2087.8pt x 823.075pt>
+File: chart_1.pdf Graphic file (type pdf)
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.567 \end{frame}
-                  [33
+<use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 207.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 207.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 207.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_1.pdf Graphic file (type pdf)
 
-] [34
+<use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 207.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_1.pdf Graphic file (type pdf)
+ <use chart_1.pdf, page 1>
+Package pdftex.def Info: chart_1.pdf, page1 used on input line 207.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+ [31
 
-] [35
+ <./chart_1.pdf>]
+<chart_2.pdf, id=352, 2087.8pt x 823.075pt>
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf>
+Package pdftex.def Info: chart_2.pdf used on input line 210.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_2.pdf Graphic file (type pdf)
 
-] [36
+<use chart_2.pdf>
+Package pdftex.def Info: chart_2.pdf used on input line 210.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+ <chart_2.pdf, id=355, page=1, 2087.8pt x 823.075pt>
+File: chart_2.pdf Graphic file (type pdf)
 
-] [37
+<use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 210.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 210.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 210.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_2.pdf Graphic file (type pdf)
+
+<use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 210.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_2.pdf Graphic file (type pdf)
+ <use chart_2.pdf, page 1>
+Package pdftex.def Info: chart_2.pdf, page1 used on input line 210.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+ [32 <./chart_2.pdf>]
+<chart_3.pdf, id=388, 2087.8pt x 823.075pt>
+File: chart_3.pdf Graphic file (type pdf)
+ <use chart_3.pdf>
+Package pdftex.def Info: chart_3.pdf used on input line 213.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_3.pdf Graphic file (type pdf)
+
+<use chart_3.pdf>
+Package pdftex.def Info: chart_3.pdf used on input line 213.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+ <chart_3.pdf, id=391, page=1, 2087.8pt x 823.075pt>
+File: chart_3.pdf Graphic file (type pdf)
+
+<use chart_3.pdf, page 1>
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 213.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_3.pdf Graphic file (type pdf)
+ <use chart_3.pdf, page 1>
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 213.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_3.pdf Graphic file (type pdf)
+ <use chart_3.pdf, page 1>
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 213.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_3.pdf Graphic file (type pdf)
+
+<use chart_3.pdf, page 1>
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 213.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_3.pdf Graphic file (type pdf)
+ <use chart_3.pdf, page 1>
+Package pdftex.def Info: chart_3.pdf, page1 used on input line 213.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+ [33 <./chart_3.pdf>]
+<chart_4.pdf, id=424, 2087.8pt x 823.075pt>
+File: chart_4.pdf Graphic file (type pdf)
+ <use chart_4.pdf>
+Package pdftex.def Info: chart_4.pdf used on input line 216.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_4.pdf Graphic file (type pdf)
+
+<use chart_4.pdf>
+Package pdftex.def Info: chart_4.pdf used on input line 216.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+ <chart_4.pdf, id=427, page=1, 2087.8pt x 823.075pt>
+File: chart_4.pdf Graphic file (type pdf)
+
+<use chart_4.pdf, page 1>
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 216.
+(pdftex.def)             Requested size: 2087.79492pt x 823.07298pt.
+File: chart_4.pdf Graphic file (type pdf)
+ <use chart_4.pdf, page 1>
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 216.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_4.pdf Graphic file (type pdf)
+ <use chart_4.pdf, page 1>
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 216.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_4.pdf Graphic file (type pdf)
+
+<use chart_4.pdf, page 1>
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 216.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+File: chart_4.pdf Graphic file (type pdf)
+ <use chart_4.pdf, page 1>
+Package pdftex.def Info: chart_4.pdf, page1 used on input line 216.
+(pdftex.def)             Requested size: 364.31918pt x 143.62582pt.
+ [34 <./chart_4.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<Chocolate.pdf, id=460, 457.71pt x 395.22656pt>
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf>
+Package pdftex.def Info: Chocolate.pdf used on input line 219.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+File: Chocolate.pdf Graphic file (type pdf)
+<use Chocolate.pdf>
+Package pdftex.def Info: Chocolate.pdf used on input line 219.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Chocolate.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<Chocolate.pdf, id=463, page=1, 457.71pt x 395.22656pt>
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 219.
+(pdftex.def)             Requested size: 457.7089pt x 395.22559pt.
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 219.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 219.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+ <use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 219.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+File: Chocolate.pdf Graphic file (type pdf)
+
+<use Chocolate.pdf, page 1>
+Package pdftex.def Info: Chocolate.pdf, page1 used on input line 219.
+(pdftex.def)             Requested size: 316.50468pt x 273.29762pt.
+ [35 <./Chocolate.pdf>] [36] [37
 
 ] [38
 
@@ -1886,85 +1786,53 @@ l.567 \end{frame}
 ] [40
 
 ]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 629.
+[41
 
-(C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fvm/b/n' tried instead on input line 629.
- [41
+] [42
 
-]
-[42
+] [43
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.676 \end{frame}
-                 
-Overfull \vbox (15.84499pt too high) detected at line 676
- []
+] [44
 
-[43
-
-]
-Overfull \vbox (15.84499pt too high) detected at line 676
- []
-
-[44
-
-]
-Overfull \vbox (15.84499pt too high) detected at line 676
- []
-
-[45
+] [45
 
 ] [46
 
 ] [47
 
-] [48
+]
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 294.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 294.
+
+Underfull \hbox (badness 1297) in paragraph at lines 294--294
+\T1/fav/m/sc/10.95 United States com-pared
+ []
+
+[48
 
 ]
-Overfull \vbox (15.84499pt too high) detected at line 746
+Underfull \hbox (badness 1297) in paragraph at lines 294--294
+\T1/fav/m/sc/10.95 United States com-pared
  []
 
 [49
 
 ]
-Overfull \vbox (15.84499pt too high) detected at line 746
+Underfull \hbox (badness 1297) in paragraph at lines 294--294
+\T1/fav/m/sc/10.95 United States com-pared
  []
 
 [50
 
-]
-Overfull \vbox (15.84499pt too high) detected at line 746
- []
+] [51
 
-[51
+] [52
 
-]
-Underfull \hbox (badness 10000) detected at line 757
- []$[]   []$ []  
- []
+] [53
 
-[52
-
-]
-Underfull \hbox (badness 10000) detected at line 757
- []$[]   []$ []  
- []
-
-[53
-
-]
-Overfull \hbox (4.15651pt too wide) detected at line 770
- []$[] \OT1/zavm/m/n/10.95 + [] + []$ []  
- []
-
-[54
+] [54
 
 ] [55
 
@@ -1972,59 +1840,408 @@ Overfull \hbox (4.15651pt too wide) detected at line 770
 
 ] [57
 
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
 ]
-<figure/unnamed-chunk-5-1.pdf, id=677, 1003.75pt x 582.175pt>
+[65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\T1/fav/m/sc/10.95 Investment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\T1/fav/m/sc/10.95 Investment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\T1/fav/m/sc/10.95 in Ed-u-ca-
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.419 \end{frame}
+                  [75
+
+] [76
+
+] [77
+
+] [78
+
+]
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 460.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 460.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 8.64006pt on input line 460.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 460.
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]|\T1/fav/m/n/9 PR Sys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\T1/fav/m/n/9 Ed-u-ca-tion if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\T1/fav/m/n/9 Ed-u-ca-tion if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]|\T1/fav/m/n/9 Treatment
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.460 \end{frame}
+                  [79
+
+] [80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+] [87
+
+] [88
+
+] [89
+
+]
+[90
+
+] [91
+
+] [92
+
+] [93
+
+] [94
+
+] [95
+
+]
+Underfull \hbox (badness 2608) in paragraph at lines 545--545
+[]|\T1/fav/m/sc/10.95 Researcher con-trols the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
+[]|\T1/fav/m/sc/10.95 Treatment as-sign-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
+\T1/fav/m/sc/10.95 out-comes ('Con-di-tional
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.545 \end{frame}
+                 
+Overfull \hbox (110.19595pt too wide) in paragraph at lines 545--545
+ [][][][] 
+ []
+
+[96
+
+] [97
+
+] [98
+
+] [99
+
+] [100
+
+] [101
+
+] [102
+
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.611 \end{frame}
+                 
+Overfull \vbox (2.62276pt too high) detected at line 611
+ []
+
+[103
+
+]
+Overfull \vbox (2.62276pt too high) detected at line 611
+ []
+
+[104
+
+]
+Overfull \vbox (2.62276pt too high) detected at line 611
+ []
+
+[105
+
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.641 \end{frame}
+                  [106
+
+] [107
+
+] [108
+
+] [109
+
+] [110
+
+] [111
+
+] [112
+
+] [113
+
+] [114
+
+]
+[115
+
+] [116
+
+] [117
+
+] [118
+
+] [119
+
+] [120
+
+]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 709.
+
+(C:\Users\Jonny\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 709.
+ [121
+
+]
+[122
+
+]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.756 \end{frame}
+                 
+Overfull \vbox (15.84499pt too high) detected at line 756
+ []
+
+[123
+
+]
+Overfull \vbox (15.84499pt too high) detected at line 756
+ []
+
+[124
+
+]
+Overfull \vbox (15.84499pt too high) detected at line 756
+ []
+
+[125
+
+] [126
+
+] [127
+
+] [128
+
+] [129
+
+] [130
+
+] [131
+
+]
+Overfull \vbox (15.84499pt too high) detected at line 829
+ []
+
+[132
+
+]
+Overfull \vbox (15.84499pt too high) detected at line 829
+ []
+
+[133
+
+]
+Overfull \vbox (15.84499pt too high) detected at line 829
+ []
+
+[134
+
+]
+Underfull \hbox (badness 10000) detected at line 840
+ []$[]   []$ []  
+ []
+
+[135
+
+]
+Underfull \hbox (badness 10000) detected at line 840
+ []$[]   []$ []  
+ []
+
+[136
+
+]
+Overfull \hbox (4.15651pt too wide) detected at line 853
+ []$[] \OT1/zavm/m/n/10.95 + [] + []$ []  
+ []
+
+[137
+
+] [138
+
+] [139
+
+] [140
+
+] [141
+
+] [142
+
+] [143
+
+] [144
+
+]
+<figure/unnamed-chunk-5-1.pdf, id=1474, 1003.75pt x 582.175pt>
 File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 829.
+Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 916.
 (pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [58
+ [145
 
  <./figure/unnamed-chunk-5-1.pdf>]
-<figure/unnamed-chunk-6-1.pdf, id=696, 1003.75pt x 582.175pt>
+<figure/unnamed-chunk-6-1.pdf, id=1494, 1003.75pt x 582.175pt>
 File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 838.
+Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 925.
 (pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [59
+ [146
 
  <./figure/unnamed-chunk-6-1.pdf>]
-<figure/unnamed-chunk-7-1.pdf, id=715, 1003.75pt x 582.175pt>
+<figure/unnamed-chunk-7-1.pdf, id=1513, 1003.75pt x 582.175pt>
 File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-7-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 847.
+Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 934.
 (pdftex.def)             Requested size: 354.19536pt x 205.43436pt.
- [60
+ [147
 
  <./figure/unnamed-chunk-7-1.pdf>]pdfTeX warning (ext4): destination with the s
 ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.881 \end{frame}
+l.968 \end{frame}
                  
-Overfull \vbox (0.60248pt too high) detected at line 881
+Overfull \vbox (0.60248pt too high) detected at line 968
  []
 
-[61
+[148
 
 ]
-Overfull \vbox (0.60248pt too high) detected at line 881
+Overfull \vbox (0.60248pt too high) detected at line 968
  []
 
-[62
+[149
 
 ]
-Overfull \vbox (0.60248pt too high) detected at line 881
+Overfull \vbox (0.60248pt too high) detected at line 968
  []
 
-[63
+[150
 
-] [64
+] [151
 
-] [65
+] [152
+
+] [153
+
+] [154
+
+] [155
+
+] [156
+
+] [157
+
+] [158
+
+] [159
+
+] [160
+
+] [161
 
 ]
 \tf@nav=\write6
@@ -2036,11 +2253,13 @@ Overfull \vbox (0.60248pt too high) detected at line 881
 \tf@snm=\write8
 \openout8 = `Slides_Day_2_v2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 910.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 910.
- (Slides_Day_2_v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 910.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 910.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1006.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1006.
+
+(Slides_Day_2_v2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1006.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1006.
+
 Package rerunfilecheck Info: File `Slides_Day_2_v2.out' has not changed.
 (rerunfilecheck)             Checksum: 0E5BA99D75AA28F49F8B8003938F94BC;201.
 
@@ -2052,9 +2271,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22540 strings out of 493333
- 434385 string characters out of 3139194
- 514037 words of memory out of 3000000
+ 22732 strings out of 493333
+ 436333 string characters out of 3139194
+ 514038 words of memory out of 3000000
  25318 multiletter control sequences out of 15000+200000
  74829 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2071,9 +2290,9 @@ ers/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
 <C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chbm
 a.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/m
 d-chr7v.pfb>
-Output written on Slides_Day_2_v2.pdf (65 pages, 413787 bytes).
+Output written on Slides_Day_2_v2.pdf (161 pages, 645751 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
+ 1766 PDF objects out of 2073 (max. 8388607)
+ 328 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
