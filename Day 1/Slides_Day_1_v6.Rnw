@@ -514,7 +514,7 @@ library(xtable)
 \begin{frame}
 \frametitle{Critiquing Concepts}
 \begin{itemize}
-\item Every component of the argument is subject to causal critique because the integrity of the overall argument depends on each element
+\item Every component of the argument is subject to causal critique
 \pause
 \item \textbf{Conceptual Validity}
 \pause
@@ -583,8 +583,6 @@ library(xtable)
 \pause
 \item Observational Studies:
 \begin{itemize}
-\item Case Study, Process Tracing
-\pause
 \item Comparative Cases
 \pause
 \item Regression with controls
@@ -624,6 +622,17 @@ library(xtable)
 \item Regression Discontinuity
 \pause
 \item Difference-in-Differences
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Methodology}
+\begin{itemize}
+\item Small-N Studies:
+\pause
+\begin{itemize}
+\item Case Study, Process Tracing
 \end{itemize}
 \end{itemize}
 \end{frame}
