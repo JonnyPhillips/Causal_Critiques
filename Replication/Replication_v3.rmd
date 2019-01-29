@@ -53,20 +53,33 @@ d_2004 <- read_csv("2004 Mayoral Elections Data.csv")
 
 
 ```{r}
-d_2000 <- d_2000 %>% filter(NUM_TURNO==1) %>% 
-  group_by(COD_MUN_IBGE) %>% 
+d_2000 <- d_2000 %>% filter(NUM_TURNO==1) %>% group_by(COD_MUN_IBGE) %>%
+  mutate(vote_pct_2000=QTDE_VOTOS/sum(QTDE_VOTOS))
   
-  mutate(vote_pct_2000=QTDE_VOTOS/sum(QTDE_VOTOS)) %>% 
+  
+  
+  
+d_2000 <- d_2000 %>% group_by(COD_MUN_IBGE) %>% 
   
   mutate(rank_2000=rank(-QTDE_VOTOS)) %>%
   
   arrange(COD_MUN_IBGE,rank_2000) %>% 
   
-  mutate(first_rank_vote_pct=max(vote_pct_2000), second_rank_vote_pct=nth(vote_pct_2000,2)) %>%
+  mutate(first_rank_vote_pct=max(vote_pct_2000), 
+         second_rank_vote_pct=nth(vote_pct_2000,2)) %>%
   
-  mutate(win_margin=ifelse(rank_2000==1,vote_pct_2000-second_rank_vote_pct,vote_pct_2000-first_rank_vote_pct)) %>%
+  mutate(win_margin=ifelse(rank_2000==1,
+                           vote_pct_2000-second_rank_vote_pct,
+                           vote_pct_2000-first_rank_vote_pct)) %>%
   
   mutate(Incumbent=ifelse(rank_2000==1,1,0))
+
+
+
+
+
+
+
 
 d_2004 <- d_2004 %>% filter(NUM_TURNO==1) %>% 
   select(COD_MUN_IBGE,SIGLA_PARTIDO,QTDE_VOTOS) %>% 
@@ -78,19 +91,19 @@ d <- d_2000 %>% left_join(d_2004,by=c("COD_MUN_IBGE","SIGLA_PARTIDO"))
 
 ## Day 2 - Observational regression
 
-Using your dataset from Day 1, what would the answer to our research question be using an 'observational' methodology? 
+Using your dataset from Day 1, what would the answer to the research question (Does incumbency affect eletoral performance?) be using an 'observational' methodology? 
 
-1. Conduct a basic regression of incumbency status on (your measure of) electoral performance in 2004. Interpret the results. (Hint: Make sure your measure of distance to the tied election has negative values for the losers).
+1. Conduct a basic regression of incumbency status on (your measure of) electoral performance in 2004. Interpret the results. (Hint: Make sure your measure of winning margin has negative values for the losers).
 
-2. Are these results consistent with the finding in Titiunik 2011? 
+2. Are these results consistent with the findings in Titiunik 2011? 
 
-3. Briefly describe the treatment assignment process.
+3. Briefly describe the treatment assignment process for all of the units in the data. How is the treatment assignment process different for units close to the discontinuity threshold (where winning margin is close to zero)?
 
 3. One causal critique might be that there is omitted variable bias: More effective or popular parties are more likely to become incumbents and also to perform better at the next election. To try and adjust for this, add a control for party (equivalently, a fixed effect for party). How does this affect the results?
 
 4. What happens if we add a control for state ('UF')?
 
-5. A different causal critique is that there may be selection bias. Perhaps incumbent parties who realized they are unpopular decided not to run again? We do not have these parties in our 2004 dataset. To estimate how severe this problem *might* be, calculate what percentage of parties decided to run again in 2004. (You may have to open the original datasets from Day 1 again, depending on how you joined your data).
+5. A different causal critique is that there may be selection bias. Perhaps incumbent parties who realized they are unpopular decided not to run again. So we do not have these parties in our 2004 dataset. To estimate how severe this problem *might* be, calculate what percentage of parties decided to run again in 2004. (You may have to open the original datasets from Day 1 again, depending on how you joined your data).
 
 
 ```{r}
@@ -100,13 +113,35 @@ d %>% lm(vote_pct_2004~Incumbent, data=.) %>% summary()
 ```{r}
 d %>% lm(vote_pct_2004~Incumbent + SIGLA_PARTIDO, data=.) %>% summary()
 
-d %>% lm(vote_pct_2004~Incumbent + UF, data=.) %>% summary()
 ```
 
 ```{r}
-d %>% filter(Incumbent==1) %>% mutate(ran_in_2004=ifelse(is.na(vote_pct_2004),"No","Yes")) %>% group_by(ran_in_2004) %>% count() %>% 
+Mun_data <- read_csv("Mun_Data.csv")
+
+d <- d %>% left_join(Mun_data, by="COD_MUN_IBGE")
+
+
+d %>% lm(vote_pct_2004~Incumbent + POP_201, data=.) %>% summary()
+d %>% lm(vote_pct_2004~Incumbent + IDHM_10, data=.) %>% summary()
+d %>% lm(vote_pct_2004~Incumbent + PIB_PER, data=.) %>% summary()
+
+d %>% lm(vote_pct_2004~Incumbent + POP_201 + IDHM_10 + PIB_PER, data=.) %>% summary()
+
+```
+
+
+```{r}
+d %>% filter(Incumbent==1) %>% 
+  mutate(ran_in_2004=ifelse(is.na(vote_pct_2004),"No","Yes")) %>% 
+  group_by(ran_in_2004) %>% 
+  count() %>% 
   ungroup() %>% 
   mutate(pct_ran_in_2004=n/sum(n))
+
+d %>% filter(Incumbent==1) %>% 
+  mutate(ran_in_2004=ifelse(is.na(vote_pct_2004),"No","Yes")) %>% 
+  group_by(ran_in_2004) %>% 
+  summarize(avg_vote_share_2000=mean(vote_pct_2000))
 ```
 
 

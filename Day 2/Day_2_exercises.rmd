@@ -46,6 +46,6 @@ For each of the scenarios below, explain the risk of self-selection bias:
 
 13. Candidates with a dedicated campaign headquarters are more likely to be elected
 
-14. More disciplined political parties are more likely to survive for more than 20 years
+14. Political parties with a formal organizational structure are more likely to survive for more than 20 years
 
 15. People with colourful clothes are more likely to attend political protests
