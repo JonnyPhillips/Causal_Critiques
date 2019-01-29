@@ -654,12 +654,12 @@ render_graph(graph, width=600, height=400)
 
 \begin{frame}
 \frametitle{Omitted Variable Bias}
-<<echo=F, out.width=600, out.height=600, fig.align='center'>>=
+<<echo=F, out.width=800, out.height=500, fig.align='center'>>=
 graph <-
   create_graph() %>%
   add_global_graph_attrs("graph", "rankdir", "LR") %>%
   add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_node(label="European") %>% add_edge(from="European", to="Wealth", edge_aes=edge_aes(color="black")) %>% add_edge(from="European", to="Democracy", edge_aes=edge_aes(color="black"))
-render_graph(graph)
+render_graph(graph, width=600, height=400)
 @
 \end{frame}
 
@@ -701,17 +701,20 @@ render_graph(graph)
 \begin{frame}
 \frametitle{Self-Selecion Bias}
 \begin{itemize}
-\item Selection Bias occurs where our data do not reflect 
+\item Selection Bias occurs where our data sample does not tell the complete story:
 \pause
 \begin{enumerate}
 \item \textbf{Self-selection Bias:} Units that benefit most from treatment choose to receive treatment
 \begin{itemize}
 \item Those with the biggest difference  in potential values, $Y_1 - Y_0$
 \end{itemize}
-\item \textbf{Data selection Bias:} Some types of units don't report data
+\item \textbf{Data Availability Bias:} Some types of units don't report data
+\begin{itemize}
+\item \textit{For reasons related to the treatment and potential outcomes}
+\end{itemize}
 \item \textbf{Survival Bias:} Some types of units drop out of our sample
 \begin{itemize}
-\item For reasons related to the treatment and the outcome
+\item \textit{For reasons related to the treatment and potential outcomes}
 \end{itemize}
 \end{enumerate}
 \end{itemize}
@@ -734,29 +737,6 @@ render_graph(graph)
 
 \setbeamercolor{background canvas}{bg=}
 \includepdf[pages={1}]{Bombers.pdf}
-
-\begin{frame}
-\frametitle{Self-Selection Bias}
-<<echo=F, out.width=600, out.height=600, fig.align='center'>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy")
-render_graph(graph)
-@
-\end{frame}
-
-\begin{frame}
-\frametitle{Self-Selection Bias}
-<<echo=F, out.width=600, out.height=600, fig.align='center'>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_node(label="Selected Cases") %>% add_edge(from="Wealth",to="Selected Cases", edge_aes=edge_aes(color="black")) %>% add_edge(from="Democracy",to="Selected Cases", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
-\end{frame}
-
 
 \begin{frame}
 \frametitle{Self-Selection Bias}
@@ -872,23 +852,11 @@ NB: For equal-sized treatment and control groups
 \begin{frame}
 \frametitle{Reverse Causation}
 <<echo=F, out.width=600, out.height=600, fig.align='center'>>=
-library(DiagrammeR)
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy")
-render_graph(graph)
-@
-\end{frame}
-
-\begin{frame}
-\frametitle{Reverse Causation}
-<<echo=F, out.width=600, out.height=600, fig.align='center'>>=
 graph <-
   create_graph() %>%
   add_global_graph_attrs("graph", "rankdir", "LR") %>%
   add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_edge(from="Wealth",to="Democracy", edge_aes=edge_aes(color="black"))
-render_graph(graph)
+render_graph(graph, width=600, height=400)
 @
 \end{frame}
 
@@ -899,14 +867,14 @@ graph <-
   create_graph() %>%
   add_global_graph_attrs("graph", "rankdir", "LR") %>%
   add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_edge(from="Democracy",to="Wealth", edge_aes=edge_aes(color="black"))
-render_graph(graph)
+render_graph(graph, width=600, height=400)
 @
 \end{frame}
 
 \begin{frame}
 \frametitle{Reverse Causation}
 \begin{itemize}
-\item Where treatment has $no$ effect
+\item Assume treatment has $no$ effect
 \end{itemize}
 \begin{table}[htbp]
   \centering

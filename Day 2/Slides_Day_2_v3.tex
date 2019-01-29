@@ -709,7 +709,7 @@ ATE &=& E(Y_1) - E(Y_0) \\
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-2-1} 
+{\centering \includegraphics[width=800,height=500]{figure/unnamed-chunk-2-1} 
 
 }
 
@@ -756,17 +756,20 @@ ATE &=& E(Y_1) - E(Y_0) \\
 \begin{frame}
 \frametitle{Self-Selecion Bias}
 \begin{itemize}
-\item Selection Bias occurs where our data do not reflect 
+\item Selection Bias occurs where our data sample does not tell the complete story:
 \pause
 \begin{enumerate}
 \item \textbf{Self-selection Bias:} Units that benefit most from treatment choose to receive treatment
 \begin{itemize}
 \item Those with the biggest difference  in potential values, $Y_1 - Y_0$
 \end{itemize}
-\item \textbf{Data selection Bias:} Some types of units don't report data
+\item \textbf{Data Availability Bias:} Some types of units don't report data
+\begin{itemize}
+\item \textit{For reasons related to the treatment and potential outcomes}
+\end{itemize}
 \item \textbf{Survival Bias:} Some types of units drop out of our sample
 \begin{itemize}
-\item For reasons related to the treatment and the outcome
+\item \textit{For reasons related to the treatment and potential outcomes}
 \end{itemize}
 \end{enumerate}
 \end{itemize}
@@ -789,35 +792,6 @@ ATE &=& E(Y_1) - E(Y_0) \\
 
 \setbeamercolor{background canvas}{bg=}
 \includepdf[pages={1}]{Bombers.pdf}
-
-\begin{frame}
-\frametitle{Self-Selection Bias}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-3-1} 
-
-}
-
-
-
-\end{knitrout}
-\end{frame}
-
-\begin{frame}
-\frametitle{Self-Selection Bias}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-4-1} 
-
-}
-
-
-
-\end{knitrout}
-\end{frame}
-
 
 \begin{frame}
 \frametitle{Self-Selection Bias}
@@ -935,7 +909,7 @@ NB: For equal-sized treatment and control groups
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-5-1} 
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-3-1} 
 
 }
 
@@ -949,21 +923,7 @@ NB: For equal-sized treatment and control groups
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-6-1} 
-
-}
-
-
-
-\end{knitrout}
-\end{frame}
-
-\begin{frame}
-\frametitle{Reverse Causation}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-
-{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-7-1} 
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-4-1} 
 
 }
 
@@ -975,7 +935,7 @@ NB: For equal-sized treatment and control groups
 \begin{frame}
 \frametitle{Reverse Causation}
 \begin{itemize}
-\item Where treatment has $no$ effect
+\item Assume treatment has $no$ effect
 \end{itemize}
 \begin{table}[htbp]
   \centering
