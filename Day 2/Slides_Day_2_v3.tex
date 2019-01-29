@@ -518,57 +518,22 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \end{frame}
 
 \begin{frame}
-\frametitle{Causal Inference}
-\begin{table}[htbp]
-  \centering
-  \caption{Types of Research Design:}
-    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
-    \toprule
-          & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes ('Conditional Independence') \\
-    \midrule
-    Controlled Experiments & Yes   & Yes \\
-    \midrule
-    Natural Experiments & No    & Yes \\
-    \midrule
-    Observable Studies & No    & No \\
-    \bottomrule
-    \end{tabular}%
-  \label{tab:addlabel}%
-\end{table}%
-\end{frame}
-
-\section{Observational Data}
-
-\begin{frame}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
-\item Observational Studies
-\pause
-\begin{itemize}
-\item Household surveys
-\item Simple regression on secondary data
-\item Interviews of a random sample
-\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Problems with Observational Data}
-\begin{itemize}
-\item We do not know what the treatment assignment mechanism was
-\pause
-\begin{itemize}
-\item Because we did not control treatment assignment ourselves
-\item Which units were treated and why?
-\pause
-\end{itemize}
 \item A 'real-world' treatment assignment is \textit{highly unlikely} to create comparable potential outcomes
 \pause
+\item And we do not know what the treatment assignment mechanism was
 \begin{itemize}
+\item Because we did not control treatment assignment ourselves
+\pause
+\end{itemize}
+\pause
 \item So we do not know which units might be appropriate counterfactuals
+\begin{itemize}
 \end{itemize}
 \end{itemize}
 \end{frame}
+
 
 \begin{frame}
 \frametitle{Problems with Observational Data}
@@ -672,6 +637,43 @@ ATE &=& E(Y_1) - E(Y_0) \\
 \end{enumerate}
 \end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Exercise}
+\begin{itemize}
+\item Does fruit make you happier? 
+\pause
+\begin{itemize}
+\item Write down on a piece of paper a number between 0 and 10 representing how happy you would be if I gave you an apple now. 
+\pause
+\item Label this number $Y_1$.
+\pause
+\item Then write down a second number between 0 and 10 representing how happy you would be if I did NOT give you an apple now. 
+\pause
+\item Label this number $Y_0$.
+\pause
+\end{itemize}
+\item These are your \textbf{potential outcomes}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exercise}
+\begin{itemize}
+\item Now we will consider how estimates of the average effect of fruit on happiness vary depending on how treatment (apples) are assigned.
+\pause
+\begin{enumerate}
+\item All the female participants are given an apple.
+\pause
+\item The tallest half are given an apple.
+\pause
+\item You are free to choose yourself to take an apple or not.
+\pause
+\item Apples are distributed randomly
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
 
 \section{3 Critiques}
 
@@ -966,41 +968,42 @@ NB: For equal-sized treatment and control groups
 \end{itemize}
 \end{frame}
 
+
 \begin{frame}
-\frametitle{Exercise}
+\frametitle{Causal Inference}
+\begin{table}[htbp]
+  \centering
+  \caption{Types of Research Design:}
+    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+    \toprule
+          & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes ('Conditional Independence') \\
+    \midrule
+    Controlled Experiments & Yes   & Yes \\
+    \midrule
+    Natural Experiments & No    & Yes \\
+    \midrule
+    Observable Studies & No    & No \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+\end{frame}
+
+\section{Observational Data}
+
+\begin{frame}
+\frametitle{Problems with Observational Data}
 \begin{itemize}
-\item Does fruit make you happier? 
+\item Observational Studies
 \pause
 \begin{itemize}
-\item Write down on a piece of paper a number between 0 and 10 representing how happy you would be if I gave you an apple now. 
-\pause
-\item Label this number $Y_1$.
-\pause
-\item Then write down a second number between 0 and 10 representing how happy you would be if I did NOT give you an apple now. 
-\pause
-\item Label this number $Y_0$.
-\pause
+\item Household surveys
+\item Simple regression on secondary data
+\item Interviews of a random sample
 \end{itemize}
-\item These are your \textbf{potential outcomes}.
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Exercise}
-\begin{itemize}
-\item Now we will consider how estimates of the average effect of fruit on happiness vary depending on how treatment (apples) are assigned.
-\pause
-\begin{enumerate}
-\item All the female participants are given an apple.
-\pause
-\item The tallest half are given an apple.
-\pause
-\item You are free to choose yourself to take an apple or not.
-\pause
-\item Apples are distributed randomly
-\end{enumerate}
-\end{itemize}
-\end{frame}
 
 \end{document}
  
