@@ -1,6 +1,56 @@
 % Font options: 10pm, 11pt, 12pt
 % Align headings left instead of center: nocenter
-\documentclass[xcolor=x11names,compress]{beamer}
+\documentclass[xcolor=x11names,compress]{beamer}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
 %\documentclass[xcolor=x11names,compress,handout]{beamer}
 \usepackage[]{graphicx}
 \usepackage[]{color}
@@ -53,7 +103,7 @@
 \title{Making Causal Critiques}
 \subtitle{Day 2 - Fundamental Critiques}
 \author{Jonathan Phillips}
-
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 
 \frame{\titlepage}
@@ -174,9 +224,9 @@
 \item Why isn't correlation enough?
 \pause
 \begin{itemize}
-\item For \textit{prediction}, correlation is fine: If we know a country has income of US\$50,000 per capita we can confidently predict it is perceived as being less corrupt
+\item For \textit{prediction}, correlation is fine: If we know a country has chocolate consumption of 10kg/yr/capita we can confidently predict it will have about 25 Nobel Laureates
 \pause
-\item But for \textit{intervention}, correlation does not help: investing to boost the economy does nothing on its own to reduce corruption
+\item But for \textit{intervention}, correlation does not help: forcing people to eat more chocolate does nothing on its own to produce more Nobel Laureates
 \pause
 \end{itemize}
 \item So if we want to provide policy-relevant advice, we need to know more than just correlation
@@ -188,8 +238,8 @@
 \begin{itemize}
 \item Why isn't correlation enough?
 \begin{itemize}
-\item For \textit{explanation}, correlation also fails - it is no \textit{explanation} to say that you are a student because you are in your 20's
-\item Explanation means identifying the direct and 'local' causal effects
+\item For \textit{explanation}, correlation also fails - it is no \textit{explanation} to say that Switzerland has the most Nobel Laureates because it has the highest chocolate consumption
+\item Explanation means identifying the \textit{direct} and \textit{local} factors that generate Nobel Laureates
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -203,7 +253,7 @@
 \item People are \textbf{strategic}, so their behaviour changes
 \pause
 \end{itemize}
-\item \textbf{The Lucas Critique}: Relationships fall apart when we intervene with policy
+\item \textbf{The Lucas Critique}: Correlations fall apart when we intervene with policy
 \begin{itemize}
 \item The data shows no-one lies on their tax forms
 \pause
@@ -281,8 +331,6 @@
 \item Tempting to look at many outcomes, but the risk of cherry-picking
 \pause
 \begin{itemize}
-\item All outcomes are probabilistic
-\pause
 \item If we study 20 outcomes, on average one will show a significant effect even with no real causal effect
 \end{itemize}
 \end{itemize}
@@ -292,26 +340,9 @@
 \begin{frame}
 \frametitle{Causal Inference}
 \begin{itemize}
-\item We want to know how some variable affects another variable
+\item The \textbf{causal effect} of treatment is how each unit's outcome differs when it is treated and not treated
 \pause
-\item eg. how a proportional representation electoral system affects investment in education
-\pause
-\begin{itemize}
-\item The \textbf{treatment} is a change to a PR electoral system (vs FPTP)
-\pause
-\item The \textbf{outcome} is the level of (public?) investment in education
-\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Causal Inference}
-\begin{itemize}
-\item So we need a precise framework to analyze causation
-\pause
-\item The causal effect of treatment is how the unit's outcome differs when it is treated and not treated
-\pause
-\item These are the \textbf{potential outcomes} for unit $i$:
+\item This means comparing the \textbf{potential outcomes} for unit $i$:
 \[
 Y_{Di} = 
 \begin{cases}
@@ -344,12 +375,28 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 
 \begin{frame}
 \frametitle{Causal Inference}
+\begin{itemize}
+\item We want to know how $D$ affects $Y$
+\pause
+\item eg. how a proportional representation electoral system affects investment in education
+\pause
+\begin{itemize}
+\item The \textbf{treatment} is a change to a PR electoral system (vs FPTP)
+\pause
+\item The \textbf{outcome} is the level of investment in education
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Causal Inference}
 \begin{table}[htbp]
   \centering
   \caption{Potential Outcomes Example}
     \begin{tabular}{|l|p{2.4cm}|p{2.4cm}|r|}
     \hline
-          & \multicolumn{1}{p{2.4cm}|}{Investment in Education if PR system} & \multicolumn{1}{p{2.4cm}|}{Investment in Education if FPTP system} &  \bigstrut\\
+          & \multicolumn{1}{p{2.4cm}|}{Investment in Education if PR} & \multicolumn{1}{p{2.4cm}|}{Investment in Education if NOT PR} &  \bigstrut\\
     \hline
           & \multicolumn{1}{l|}{$Y_1$} & \multicolumn{1}{l|}{$Y_0$} & \multicolumn{1}{l|}{Treatment Effect} \bigstrut\\
     \hline
@@ -389,7 +436,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
   \caption{Potential Outcomes Example}
     \begin{tabular}{|p{1.8cm}|p{2.2cm}|p{2.2cm}|p{1.8cm}|r|}
     \hline
-          & \multicolumn{1}{p{1.8cm}|}{PR System?} & \multicolumn{1}{p{2.2cm}|}{Investment in Education if PR system} & \multicolumn{1}{p{2.2cm}|}{Investment in Education if FPTP system} &  \bigstrut\\
+          & \multicolumn{1}{p{1.8cm}|}{PR System?} & \multicolumn{1}{p{2.2cm}|}{Investment in Education if PR} & \multicolumn{1}{p{2.2cm}|}{Investment in Education if NOT PR} &  \bigstrut\\
     \hline
           & \multicolumn{1}{p{1.8cm}|}{$D_i$} & \multicolumn{1}{p{2.2cm}|}{$Y_1$} & \multicolumn{1}{p{2.2cm}|}{$Y_0$} & \multicolumn{1}{p{1.8cm}|}{Treatment Effect} \bigstrut\\
     \hline
@@ -425,12 +472,12 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \begin{frame}
 \frametitle{Causal Inference}
 \begin{itemize}
-\item So we need to consider the \textbf{counterfactual} - what would have happened if the country had \textbf{not} switched to a PR system?
+\item So we need to consider the exact \textbf{counterfactual} - what would have happened if the country had \textbf{not} switched to a PR system?
 \pause
 \begin{itemize}
 \item This is \textbf{impossible} to know
 \pause
-\item We can only estimate the effect by comparing \textbf{across} units in some way
+\item We can only \textit{estimate} the effect by comparing \textbf{across} units in some way
 \pause
 \item That is why we are doing causal \textbf{inference}, not causal proof
 \end{itemize}
@@ -446,9 +493,7 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \pause
 \item Causal Inference is all about identifying a \textbf{plausible counterfactual}
 \pause
-\begin{itemize}
-\item Plausible means that the potential outcomes of the control unit are likely to be the same as those of the treated unit
-\end{itemize}
+\item Plausible means that \textbf{the potential outcomes of the control unit are likely to be the same as those of the treated unit}
 \end{itemize}
 \end{frame}
 
@@ -463,23 +508,21 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \end{itemize}
 \item If we 'treated' an outlier like the Galapagos Islands, could we find a comparable control unit?
 \pause
-\item Comparisons are easier where the \textbf{Treatment Assignment Mechanism is independent of potential outcomes}
+\item Comparisons are 'better' where the \textbf{Treatment Assignment Mechanism is independent of potential outcomes}
 \pause
 \begin{itemize}
-\item This makes it more likely that potential outcomes are 'balanced' and comparable
+\item I.e. Whether you got treatment had \textbf{nothing} to do with how much you would benefit from treatment 
+\item This makes it more likely that potential outcomes are 'balanced'
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Causal Inference}
-\begin{itemize}
-\item Types of Research Design:
-\end{itemize}
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
-    \begin{tabular}{|>{\raggedright}p{5cm}|p{5cm}|p{5cm}|}
+  \caption{Types of Research Design:}
+    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
     \toprule
           & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes ('Conditional Independence') \\
     \midrule
@@ -515,13 +558,14 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \item We do not know what the treatment assignment mechanism was
 \pause
 \begin{itemize}
+\item Because we did not control treatment assignment ourselves
 \item Which units were treated and why?
 \pause
 \end{itemize}
-\item Treatment assignment is unlikely to create comparable potential outcomes
+\item A 'real-world' treatment assignment is \textit{highly unlikely} to create comparable potential outcomes
 \pause
 \begin{itemize}
-\item Which units might be appropriate counterfactuals?
+\item So we do not know which units might be appropriate counterfactuals
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -648,24 +692,30 @@ ATE &=& E(Y_1) - E(Y_0) \\
 
 \begin{frame}
 \frametitle{Omitted Variable Bias}
-<<echo=F>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_edge(from="Wealth",to="Democracy", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-1-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 \begin{frame}
 \frametitle{Omitted Variable Bias}
-<<echo=F, fig.width=12, fig.height=12>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_node(label="European") %>% add_edge(from="European", to="Wealth", edge_aes=edge_aes(color="black")) %>% add_edge(from="European", to="Democracy", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-2-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 
@@ -706,6 +756,25 @@ render_graph(graph)
 \begin{frame}
 \frametitle{Self-Selecion Bias}
 \begin{itemize}
+\item Selection Bias occurs where our data do not reflect 
+\pause
+\begin{enumerate}
+\item \textbf{Self-selection Bias:} Units that benefit most from treatment choose to receive treatment
+\begin{itemize}
+\item Those with the biggest difference  in potential values, $Y_1 - Y_0$
+\end{itemize}
+\item \textbf{Data selection Bias:} Some types of units don't report data
+\item \textbf{Survival Bias:} Some types of units drop out of our sample
+\begin{itemize}
+\item For reasons related to the treatment and the outcome
+\end{itemize}
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Self-Selecion Bias}
+\begin{itemize}
 \item Wealthier countries are more likely to be democracies
 \pause
 \begin{itemize}
@@ -713,31 +782,40 @@ render_graph(graph)
 \pause
 \item So we cannot compare them
 \pause
-\item Only wealthy democracies 'self-select' into our sample
+\item Only wealthy democracies 'select' into our sample
 \end{itemize}
 \end{itemize}
 \end{frame}
 
+\setbeamercolor{background canvas}{bg=}
+\includepdf[pages={1}]{Bombers.pdf}
+
 \begin{frame}
 \frametitle{Self-Selection Bias}
-<<echo=F>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy")
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-3-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 \begin{frame}
 \frametitle{Self-Selection Bias}
-<<echo=F, fig.width=12, fig.height=12>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_node(label="Selected Cases") %>% add_edge(from="Wealth",to="Selected Cases", edge_aes=edge_aes(color="black")) %>% add_edge(from="Democracy",to="Selected Cases", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-4-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 
@@ -770,7 +848,7 @@ render_graph(graph)
 \begin{itemize}
 \pause
 \item ATE = 8 - 3.5 = 4.5
-\item This is \textbf{self-selection bias} - treatment is affected by potential outcomes
+\item This is \textbf{self-selection bias} - those with a big jump in potential outcomes ($Y1 - Y0$) choose treatment
 \end{itemize}
 \end{frame}
 
@@ -825,11 +903,11 @@ NB: For equal-sized treatment and control groups
     \hline
     Real Effect for all units & 2 \bigstrut\\
     \hline
-    A \& D & 1 \bigstrut\\
+    Units A \& D & 1 \bigstrut\\
     \hline
-    Omitted Variable Bias (Women) & -0.5 \bigstrut\\
+    Women (Omitted Variable Bias) & -0.5 \bigstrut\\
     \hline
-    Self-selection & 4.5 \bigstrut\\
+    Biggest gains (Self-selection) & 4.5 \bigstrut\\
     \hline
     \end{tabular}%
 \end{table}%
@@ -854,36 +932,44 @@ NB: For equal-sized treatment and control groups
 
 \begin{frame}
 \frametitle{Reverse Causation}
-<<echo=F>>=
-library(DiagrammeR)
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy")
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-5-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 \begin{frame}
 \frametitle{Reverse Causation}
-<<echo=F>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_edge(from="Wealth",to="Democracy", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-6-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 \begin{frame}
 \frametitle{Reverse Causation}
-<<echo=F>>=
-graph <-
-  create_graph() %>%
-  add_global_graph_attrs("graph", "rankdir", "LR") %>%
-  add_node(label="Wealth") %>% add_node(label="Democracy") %>% add_edge(from="Democracy",to="Wealth", edge_aes=edge_aes(color="black"))
-render_graph(graph)
-@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=600,height=600]{figure/unnamed-chunk-7-1} 
+
+}
+
+
+
+\end{knitrout}
 \end{frame}
 
 \begin{frame}

@@ -1,8 +1,8 @@
 ---
 title: "Exercises on Fundamental Critiques"
-#author: "JP"
-#date: "January 22, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
