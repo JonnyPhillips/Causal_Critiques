@@ -479,16 +479,43 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
 \end{itemize}
 \pause
 \item So we do not know which units might be appropriate counterfactuals
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Causal Inference}
 \begin{itemize}
+\item With complete information on potential outcomes, calculating treatment effects is trivial
 \end{itemize}
-\end{itemize}
+\begin{table}[htbp]
+  \centering
+  \caption{Potential Outcomes Example}
+    \begin{tabular}{|l|p{2.4cm}|p{2.4cm}|r|}
+    \hline
+          & \multicolumn{1}{p{2.4cm}|}{Investment in Education if PR} & \multicolumn{1}{p{2.4cm}|}{Investment in Education if NOT PR} &  \bigstrut\\
+    \hline
+          & \multicolumn{1}{l|}{$Y_1$} & \multicolumn{1}{l|}{$Y_0$} & \multicolumn{1}{l|}{Treatment Effect} \bigstrut\\
+    \hline
+    Brasil & 8     & 4     & 4 \bigstrut\\
+    \hline
+    Argentina & 10    & 7     & 3 \bigstrut\\
+    \hline
+    Bolivia & 2     & 4     & -2 \bigstrut\\
+    \hline
+    Colombia & 11    & 11    & 0 \bigstrut\\
+    \hline
+    Peru & 6     & 2     & 4 \bigstrut\\
+    \hline
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Problems with Observational Data}
 \begin{itemize}
-\item With complete information on potential outcomes, calculating treatment effects is trivial
+\item From observed outcomes can we calculate an Average Treatment Effect?
 \pause
 \end{itemize}
 \begin{table}[htbp]
@@ -498,25 +525,21 @@ Y_{0i}\text{   Potential Outcome if unit i not treated}
     \hline
           & \multicolumn{1}{l|}{D} & \multicolumn{1}{l|}{$Y_1$} & \multicolumn{1}{l|}{$Y_0$} & \multicolumn{1}{l|}{$Y_i$} & \multicolumn{1}{l|}{Real Effect, $Y_1 - Y_0$} \bigstrut\\
     \hline
-    A     & 1     & 7     & 4     & 7     & 3 \bigstrut\\
+    A     & 1     & \cellcolor{teal}7     & ?     & 7     & ? \bigstrut\\
     \hline
-    B     & 0     & 9     & 5     & 5     & 4 \bigstrut\\
+    B     & 0     & ?     & \cellcolor{teal}5     & 5     & ? \bigstrut\\
     \hline
-    C     & 0     & 4     & 4     & 4     & 0 \bigstrut\\
+    C     & 0     & ?     & \cellcolor{teal}4     & 4     & ? \bigstrut\\
     \hline
-    D     & 1     & 4     & 3     & 4     & 1 \bigstrut\\
+    D     & 1     & \cellcolor{teal}4     & ?     & 4     & ? \bigstrut\\
     \hline \pause
-    $E(Y_1)=$ & & 6 & & \bigstrut\\
+    $E(Y_1)=$ & & 5.5 & & \bigstrut\\
     \hline
-    $E(Y_0)=$ & &  & 4& \bigstrut\\
+    $E(Y_0)=$ & &  & 4.5 & \bigstrut\\
     \hline
     \end{tabular}%
   \label{tab:addlabel}%
 \end{table}%
-\begin{itemize}
-\item $ATE = E(Y_1-Y_0) = 8/4 = 2$
-\item $ATE = E(Y_1) - E(Y_0) = 6 - 4 = 2$
-\end{itemize}
 \end{frame}
 
 \begin{frame}

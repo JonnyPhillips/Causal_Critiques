@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  29 JAN 2019 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  29 JAN 2019 10:49
 entering extended mode
 **./Slides_Day_2_v3.tex
 (Slides_Day_2_v3.tex
@@ -1292,6 +1292,9 @@ LaTeX Warning: Label `tab:addlabel' multiply defined.
 
 LaTeX Warning: Label `tab:addlabel' multiply defined.
 
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
 )
 \openout1 = `Slides_Day_2_v3.aux'.
 
@@ -1963,97 +1966,48 @@ l.457 \end{frame}
 
 ] [93
 
-]
+] [94
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+] [95
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+] [96
 
-[94
+] [97
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+[]|\T1/fav/m/sc/10.95 Investment
+ []
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+[]|\T1/fav/m/sc/10.95 Investment
+ []
 
-[95
-
-]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[96
-
-]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[97
+pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.562 \end{frame}
+                  [98
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.570 \end{frame}
-                 
-Overfull \vbox (2.62276pt too high) detected at line 570
- []
+l.593 \end{frame}
+                  [99
 
-[98
+] [100
 
-]
-Overfull \vbox (2.62276pt too high) detected at line 570
- []
-
-[99
-
-]
-Overfull \vbox (2.62276pt too high) detected at line 570
- []
-
-[100
+] [101
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.600 \end{frame}
-                  [101
-
-] [102
+l.623 \end{frame}
+                  [102
 
 ] [103
 
@@ -2069,10 +2023,10 @@ l.600 \end{frame}
 
 ] [109
 
-]
-[110
+] [110
 
-] [111
+]
+[111
 
 ] [112
 
@@ -2094,10 +2048,10 @@ l.600 \end{frame}
 
 ] [121
 
-]
-[122
+] [122
 
-] [123
+]
+[123
 
 ] [124
 
@@ -2105,12 +2059,14 @@ l.600 \end{frame}
 
 ] [126
 
+] [127
+
 ]
-<figure/unnamed-chunk-1-1.pdf, id=1309, 642.4pt x 602.25pt>
+<figure/unnamed-chunk-1-1.pdf, id=1319, 642.4pt x 602.25pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.707 \end{frame}
+l.730 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2122,7 +2078,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.707 \end{frame}
+l.730 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2133,25 +2089,25 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: figure/unnamed-chunk-1-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-1-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 707.
+Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 730.
 (pdftex.def)             Requested size: 600.01363pt x 600.0522pt.
 
-Overfull \hbox (245.81827pt too wide) in paragraph at lines 707--707
+Overfull \hbox (245.81827pt too wide) in paragraph at lines 730--730
  [][] 
  []
 
 
-Overfull \vbox (372.39093pt too high) detected at line 707
+Overfull \vbox (372.39093pt too high) detected at line 730
  []
 
-[127
+[128
 
  <./figure/unnamed-chunk-1-1.pdf>]
-<figure/unnamed-chunk-2-1.pdf, id=1329, 803.0pt x 501.875pt>
+<figure/unnamed-chunk-2-1.pdf, id=1338, 803.0pt x 501.875pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.721 \end{frame}
+l.744 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2163,7 +2119,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.721 \end{frame}
+l.744 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2174,43 +2130,41 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 721.
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 744.
 (pdftex.def)             Requested size: 800.05737pt x 500.02818pt.
 
-Overfull \hbox (445.86201pt too wide) in paragraph at lines 721--721
+Overfull \hbox (445.86201pt too wide) in paragraph at lines 744--744
  [][] 
  []
 
 
-Overfull \vbox (272.36691pt too high) detected at line 721
+Overfull \vbox (272.36691pt too high) detected at line 744
  []
 
-[128
+[129
 
  <./figure/unnamed-chunk-2-1.pdf>]pdfTeX warning (ext4): destination with the s
 ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.756 \end{frame}
+l.779 \end{frame}
                  
-Overfull \vbox (15.84499pt too high) detected at line 756
- []
-
-[129
-
-]
-Overfull \vbox (15.84499pt too high) detected at line 756
+Overfull \vbox (15.84499pt too high) detected at line 779
  []
 
 [130
 
 ]
-Overfull \vbox (15.84499pt too high) detected at line 756
+Overfull \vbox (15.84499pt too high) detected at line 779
  []
 
 [131
 
-] [132
+]
+Overfull \vbox (15.84499pt too high) detected at line 779
+ []
+
+[132
 
 ] [133
 
@@ -2222,14 +2176,16 @@ Overfull \vbox (15.84499pt too high) detected at line 756
 
 ] [137
 
+] [138
+
 ]
 
 pdfTeX warning: pdflatex.exe (file ./Bombers.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Bombers.pdf, id=1430, 799.45177pt x 595.52689pt>
+<Bombers.pdf, id=1439, 799.45177pt x 595.52689pt>
 File: Bombers.pdf Graphic file (type pdf)
  <use Bombers.pdf>
-Package pdftex.def Info: Bombers.pdf used on input line 796.
+Package pdftex.def Info: Bombers.pdf used on input line 819.
 (pdftex.def)             Requested size: 799.44981pt x 595.52542pt.
 
 
@@ -2237,7 +2193,7 @@ pdfTeX warning: pdflatex.exe (file ./Bombers.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 File: Bombers.pdf Graphic file (type pdf)
 <use Bombers.pdf>
-Package pdftex.def Info: Bombers.pdf used on input line 796.
+Package pdftex.def Info: Bombers.pdf used on input line 819.
 (pdftex.def)             Requested size: 799.44981pt x 595.52542pt.
 
 
@@ -2247,69 +2203,67 @@ sion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Bombers.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Bombers.pdf, id=1433, page=1, 799.45177pt x 595.52689pt>
+<Bombers.pdf, id=1442, page=1, 799.45177pt x 595.52689pt>
 File: Bombers.pdf Graphic file (type pdf)
 
 <use Bombers.pdf, page 1>
-Package pdftex.def Info: Bombers.pdf, page1 used on input line 796.
+Package pdftex.def Info: Bombers.pdf, page1 used on input line 819.
 (pdftex.def)             Requested size: 799.44981pt x 595.52542pt.
 File: Bombers.pdf Graphic file (type pdf)
  <use Bombers.pdf, page 1>
-Package pdftex.def Info: Bombers.pdf, page1 used on input line 796.
+Package pdftex.def Info: Bombers.pdf, page1 used on input line 819.
 (pdftex.def)             Requested size: 364.39764pt x 271.44676pt.
 File: Bombers.pdf Graphic file (type pdf)
  <use Bombers.pdf, page 1>
-Package pdftex.def Info: Bombers.pdf, page1 used on input line 796.
+Package pdftex.def Info: Bombers.pdf, page1 used on input line 819.
 (pdftex.def)             Requested size: 364.39764pt x 271.44676pt.
 File: Bombers.pdf Graphic file (type pdf)
 
 <use Bombers.pdf, page 1>
-Package pdftex.def Info: Bombers.pdf, page1 used on input line 796.
+Package pdftex.def Info: Bombers.pdf, page1 used on input line 819.
 (pdftex.def)             Requested size: 364.39764pt x 271.44676pt.
 File: Bombers.pdf Graphic file (type pdf)
  <use Bombers.pdf, page 1>
-Package pdftex.def Info: Bombers.pdf, page1 used on input line 796.
+Package pdftex.def Info: Bombers.pdf, page1 used on input line 819.
 (pdftex.def)             Requested size: 364.39764pt x 271.44676pt.
- [138
+ [139
 
  <./Bombers.pdf>]
-Overfull \vbox (15.84499pt too high) detected at line 829
+Overfull \vbox (15.84499pt too high) detected at line 852
  []
 
-[139]
-Overfull \vbox (15.84499pt too high) detected at line 829
- []
-
-[140
-
-]
-Overfull \vbox (15.84499pt too high) detected at line 829
+[140]
+Overfull \vbox (15.84499pt too high) detected at line 852
  []
 
 [141
 
 ]
-Underfull \hbox (badness 10000) detected at line 840
- []$[]   []$ []  
+Overfull \vbox (15.84499pt too high) detected at line 852
  []
 
 [142
 
 ]
-Underfull \hbox (badness 10000) detected at line 840
+Underfull \hbox (badness 10000) detected at line 863
  []$[]   []$ []  
  []
 
 [143
 
 ]
-Overfull \hbox (4.15651pt too wide) detected at line 853
- []$[] \OT1/zavm/m/n/10.95 + [] + []$ []  
+Underfull \hbox (badness 10000) detected at line 863
+ []$[]   []$ []  
  []
 
 [144
 
-] [145
+]
+Overfull \hbox (4.15651pt too wide) detected at line 876
+ []$[] \OT1/zavm/m/n/10.95 + [] + []$ []  
+ []
+
+[145
 
 ] [146
 
@@ -2323,12 +2277,14 @@ Overfull \hbox (4.15651pt too wide) detected at line 853
 
 ] [151
 
+] [152
+
 ]
-<figure/unnamed-chunk-3-1.pdf, id=1562, 642.4pt x 602.25pt>
+<figure/unnamed-chunk-3-1.pdf, id=1571, 642.4pt x 602.25pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.921 \end{frame}
+l.944 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2340,7 +2296,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.921 \end{frame}
+l.944 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2351,25 +2307,25 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: figure/unnamed-chunk-3-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-3-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf used on input line 921.
+Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf used on input line 944.
 (pdftex.def)             Requested size: 600.01363pt x 600.0522pt.
 
-Overfull \hbox (245.81827pt too wide) in paragraph at lines 921--921
+Overfull \hbox (245.81827pt too wide) in paragraph at lines 944--944
  [][] 
  []
 
 
-Overfull \vbox (372.39093pt too high) detected at line 921
+Overfull \vbox (372.39093pt too high) detected at line 944
  []
 
-[152
+[153
 
  <./figure/unnamed-chunk-3-1.pdf>]
-<figure/unnamed-chunk-4-1.pdf, id=1581, 642.4pt x 602.25pt>
+<figure/unnamed-chunk-4-1.pdf, id=1590, 642.4pt x 602.25pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.935 \end{frame}
+l.958 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2381,7 +2337,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.935 \end{frame}
+l.958 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2392,79 +2348,79 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 935.
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 958.
 (pdftex.def)             Requested size: 600.01363pt x 600.0522pt.
 
-Overfull \hbox (245.81827pt too wide) in paragraph at lines 935--935
+Overfull \hbox (245.81827pt too wide) in paragraph at lines 958--958
  [][] 
  []
 
 
-Overfull \vbox (372.39093pt too high) detected at line 935
+Overfull \vbox (372.39093pt too high) detected at line 958
  []
 
-[153
+[154
 
  <./figure/unnamed-chunk-4-1.pdf>]pdfTeX warning (ext4): destination with the s
 ame identifier (name{tab:addlabel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.969 \end{frame}
+l.992 \end{frame}
                  
-Overfull \vbox (0.60248pt too high) detected at line 969
- []
-
-[154
-
-]
-Overfull \vbox (0.60248pt too high) detected at line 969
+Overfull \vbox (0.60248pt too high) detected at line 992
  []
 
 [155
 
 ]
-Overfull \vbox (0.60248pt too high) detected at line 969
+Overfull \vbox (0.60248pt too high) detected at line 992
  []
 
 [156
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Overfull \vbox (0.60248pt too high) detected at line 992
+ []
+
+[157
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 []|\T1/fav/m/sc/10.95 Researcher con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 \T1/fav/m/sc/10.95 trols the treat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 \T1/fav/m/sc/10.95 likely to cre-ate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 \T1/fav/m/sc/10.95 com-pa-ra-ble po-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 990--990
+Underfull \hbox (badness 4467) in paragraph at lines 1013--1013
 \T1/fav/m/sc/10.95 ten-tial out-comes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 \T1/fav/m/sc/10.95 ('Con-di-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--990
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 []|\T1/fav/m/sc/10.95 Natural Ex-per-i-
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 990--990
+Underfull \hbox (badness 1142) in paragraph at lines 1013--1013
 []|\T1/fav/m/sc/10.95 Observable Stud-
  []
 
@@ -2472,16 +2428,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.990 \end{frame}
-                 
-Overfull \vbox (14.57799pt too high) detected at line 990
+l.1013 \end{frame}
+                  
+Overfull \vbox (14.57799pt too high) detected at line 1013
  []
 
-[157
-
-] [158
+[158
 
 ] [159
+
+] [160
 
 ]
 \tf@nav=\write6
@@ -2493,11 +2449,11 @@ Overfull \vbox (14.57799pt too high) detected at line 990
 \tf@snm=\write8
 \openout8 = `Slides_Day_2_v3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1008.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1008.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
  (Slides_Day_2_v3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1008.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1008.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1031.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1031.
 
 Package rerunfilecheck Info: File `Slides_Day_2_v3.out' has not changed.
 (rerunfilecheck)             Checksum: 2EA603AA604D751E47D973D0271C253A;201.
@@ -2510,10 +2466,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22715 strings out of 493333
- 436187 string characters out of 3139194
- 514038 words of memory out of 3000000
- 25306 multiletter control sequences out of 15000+200000
+ 22719 strings out of 493333
+ 436226 string characters out of 3139194
+ 514039 words of memory out of 3000000
+ 25308 multiletter control sequences out of 15000+200000
  76064 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,59p,874b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2528,9 +2484,9 @@ b><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-ch
 b7y.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch
 /md-chbma.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign
 /mdbch/md-chr7v.pfb>
-Output written on Slides_Day_2_v3.pdf (159 pages, 946744 bytes).
+Output written on Slides_Day_2_v3.pdf (160 pages, 948970 bytes).
 PDF statistics:
- 1755 PDF objects out of 2073 (max. 8388607)
- 324 named destinations out of 1000 (max. 500000)
+ 1766 PDF objects out of 2073 (max. 8388607)
+ 326 named destinations out of 1000 (max. 500000)
  215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
