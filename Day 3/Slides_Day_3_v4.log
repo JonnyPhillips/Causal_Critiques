@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  30 JAN 2019 06:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  30 JAN 2019 06:42
 entering extended mode
 **./Slides_Day_3_v4.tex
 (Slides_Day_3_v4.tex
@@ -2083,64 +2083,62 @@ Package pdftex.def Info: figure/UK_growth.png used on input line 793.
 
 ] [140
 
-] <figure/DinD_chart6-1.pdf, id=1542, 361.35pt x 180.675pt>
+] [141
+
+] [142
+
+] [143
+
+]
+<figure/DinD_chart6-1.pdf, id=1572, 361.35pt x 180.675pt>
 File: figure/DinD_chart6-1.pdf Graphic file (type pdf)
 
 <use figure/DinD_chart6-1.pdf>
-Package pdftex.def Info: figure/DinD_chart6-1.pdf used on input line 889.
+Package pdftex.def Info: figure/DinD_chart6-1.pdf used on input line 901.
 (pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
- [141
+ [144
 
  <./figure/DinD_chart6-1.pdf>]
-<figure/DinD_chart7-1.pdf, id=1558, 361.35pt x 180.675pt>
+<figure/DinD_chart7-1.pdf, id=1588, 361.35pt x 180.675pt>
 File: figure/DinD_chart7-1.pdf Graphic file (type pdf)
 
 <use figure/DinD_chart7-1.pdf>
-Package pdftex.def Info: figure/DinD_chart7-1.pdf used on input line 898.
+Package pdftex.def Info: figure/DinD_chart7-1.pdf used on input line 910.
 (pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
- [142
+ [145
 
- <./figure/DinD_chart7-1.pdf>] [143
-
-]
-[144
-
-] [145
-
-] [146
-
-]
-Underfull \hbox (badness 1412) in paragraph at lines 937--937
+ <./figure/DinD_chart7-1.pdf>]
+Underfull \hbox (badness 1412) in paragraph at lines 934--934
 []|\T1/fav/b/n/9 Assumptions re-quired for valid
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 937--937
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/fav/m/n/9 Field/Lab/Survey
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 934--934
 []|\T1/fav/m/n/9 No spillovers, Ran-dom-iza-tion im-
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 937--937
-[]|\T1/fav/m/n/9 No spillovers, Ran-dom-iza-tion im-
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 937--937
+Underfull \hbox (badness 1990) in paragraph at lines 934--934
 []|\T1/fav/m/n/9 Instrumental Vari-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 937--937
+Underfull \hbox (badness 2285) in paragraph at lines 934--934
 []|\T1/fav/m/n/9 No Spillovers, First stage pre-dicts
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--937
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
 []|\T1/fav/m/n/9 Difference-in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--937
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
 \T1/fav/m/n/9 founders (par-al-lel trends), Well-
  []
 
@@ -2148,12 +2146,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.937 \end{frame}
-                 
-Overfull \vbox (22.21991pt too high) detected at line 937
- []
-
-[147
+l.934 \end{frame}
+                  [146
 
 ]
 \tf@nav=\write6
@@ -2165,11 +2159,11 @@ Overfull \vbox (22.21991pt too high) detected at line 937
 \tf@snm=\write8
 \openout8 = `Slides_Day_3_v4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 941.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 941.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 938.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 938.
  (Slides_Day_3_v4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 941.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 941.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 938.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 938.
 Package rerunfilecheck Info: File `Slides_Day_3_v4.out' has not changed.
 (rerunfilecheck)             Checksum: 66CFE8310D3D440C57D7D09E848714E9;276.
 
@@ -2181,8 +2175,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22707 strings out of 493333
- 436152 string characters out of 3139194
+ 22705 strings out of 493333
+ 436131 string characters out of 3139194
  512067 words of memory out of 3000000
  25324 multiletter control sequences out of 15000+200000
  79785 words of font info for 140 fonts, out of 3000000 for 9000
@@ -2200,9 +2194,9 @@ C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7y
 .pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md
 -chbma.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/md
 bch/md-chr7v.pfb>
-Output written on Slides_Day_3_v4.pdf (147 pages, 1302618 bytes).
+Output written on Slides_Day_3_v4.pdf (146 pages, 1296595 bytes).
 PDF statistics:
- 1725 PDF objects out of 1728 (max. 8388607)
- 301 named destinations out of 1000 (max. 500000)
+ 1714 PDF objects out of 1728 (max. 8388607)
+ 299 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

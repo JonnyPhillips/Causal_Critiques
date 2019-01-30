@@ -294,9 +294,9 @@ E(Y_1|D=1) - E(Y_0|D=0) &=& E(Y_1) - E(Y_0) \pause \\
 \begin{frame}
 \frametitle{Instrumental Variables}
 \begin{itemize}
-\item What can we do when the treatment assignment mechanism is not random?
+\item What can we do when the treatment assignment mechanism is not random, and \textit{cannot} be randomized?
 \pause
-\item An 'instrument' is a variable which assigns treatment in an 'as-if' random way
+\item An 'instrument' is a variable which assigns \textit{part of} treatment in an 'as-if' random way
 \pause
 \begin{itemize}
 \item Or at least in a way which is 'exogenous' - not related to omitted variables
@@ -858,14 +858,26 @@ $$ Y_{it} = \alpha + \gamma D_i + \delta T_t + \beta D_i * T_t $$
 \begin{itemize}
 \item Assumptions Required:
 \begin{enumerate}
-\item No time-varying confounders (Parallel trends)
-\item Well-defined treatment (many things changed at the same time!)
+\item \textbf{No Spillovers} (SUTVA)
+\item \textbf{No time-varying confounders} (Parallel trends)
+\item \textbf{Well-defined treatment} (many things changed at the same time!)
 \begin{itemize}
 \item Eg. The UK also announced new rules to regulate the
 banking sector on the same day as Brexit
 \end{itemize}
-\item Groups are stable (eg. no migration due to treatment)
+\item \textbf{Groups are stable} (eg. no migration due to treatment)
 \end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Difference-in-Differences}
+\begin{itemize}
+\item No time-varying confounders is a difficult assumption
+\pause
+\item Selection into treatment is usually not just due to 'fixed' variables (eg. gender) but due to 'time-varying' variables (eg. income, employment etc.)
+\pause
+\item Eg. Participants who join a training program usually experience income falls in the previous few months
 \end{itemize}
 \end{frame}
 
@@ -915,19 +927,6 @@ data6 %>% ggplot() + geom_line(aes(x=Time,y=Outcome,group=Unit,color=Unit)) +
 \end{frame}
 
 \begin{frame}
-\frametitle{Difference-in-Differences}
-\begin{itemize}
-\item No spillovers (SUTVA)
-\pause
-\item Parallel trends (no time-varying confounders) is a difficult assumption
-\pause
-\item Selection into treatment is usually not just due to mostly 'fixed' variables (eg. gender) but due to 'time-varying' variables (eg. income, employment etc.)
-\pause
-\item Eg. training program participants' income has usually fallen a lot in the past few months
-\end{itemize}
-\end{frame}
-
-\begin{frame}
 \frametitle{Assumptions}
 \footnotesize
 \begin{table}[htbp]
@@ -937,9 +936,7 @@ data6 %>% ggplot() + geom_line(aes(x=Time,y=Outcome,group=Unit,color=Unit)) +
     \hline
     \textbf{Research Design} & \textbf{Assumptions required for valid causal inference} \bigstrut\\
     \hline
-    Field Experiments & No spillovers, Randomization implemented correctly, Randomization complied with, No Hawthorne Effects \bigstrut\\
-    \hline
-    Lab/Survey Experiments & No spillovers, Randomization implemented correctly, Randomization complied with, No Hawthorne Effects \bigstrut\\
+    Field/Lab/Survey Experiments & No spillovers, Randomization implemented correctly, Randomization complied with, No Hawthorne Effects \bigstrut\\
     \hline
     Instrumental Variables & No Spillovers, First stage predicts treatment, Exclusion restriction \bigstrut\\
     \hline
