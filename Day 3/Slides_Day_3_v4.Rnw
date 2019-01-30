@@ -84,14 +84,41 @@ library(xtable)
 \begin{frame}
 \frametitle{Solving the Problem of Causal Inference}
 \begin{itemize}
+\item Experiments
+\begin{itemize}
 \item Field Experiments
 \item Lab Experiments
 \item Survey Experiments
+\end{itemize}
+\item Quasi-Experiments
+\begin{itemize}
 \item Instrumental Variables
 \item Regresssion Discontinuity
 \item Difference-in-DIfferences
 \end{itemize}
+\end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Causal Inference}
+\begin{table}[htbp]
+  \centering
+  \caption{Types of Research Design:}
+    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+    \toprule
+          & Researcher controls the treatment assignment & Treatment assignment mechanism likely to create comparable potential outcomes ('Conditional Independence') \\
+    \midrule
+    Controlled Experiments & Yes   & Yes \\
+    \midrule
+    Natural Experiments & No    & Yes \\
+    \midrule
+    Observable Studies & No    & No \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+\end{frame}
+
 
 \section{Experiments}
 

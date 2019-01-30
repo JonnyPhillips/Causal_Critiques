@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  29 JAN 2019 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  30 JAN 2019 06:15
 entering extended mode
 **./Slides_Day_3_v4.tex
 (Slides_Day_3_v4.tex
@@ -1270,7 +1270,11 @@ File: pppdftex.def 2016/12/11 v0.5g Pdfpages driver for pdfTeX (AM)
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-(Slides_Day_3_v4.aux)
+(Slides_Day_3_v4.aux
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+)
 \openout1 = `Slides_Day_3_v4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
@@ -1493,33 +1497,78 @@ LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
 ] [3
 
 ]
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 165.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 165.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\T1/fav/m/sc/10.95 Researcher con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\T1/fav/m/sc/10.95 trols the treat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\T1/fav/m/sc/10.95 likely to cre-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\T1/fav/m/sc/10.95 com-pa-ra-ble po-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 165--165
+\T1/fav/m/sc/10.95 ten-tial out-comes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\T1/fav/m/sc/10.95 ('Con-di-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\T1/fav/m/sc/10.95 Natural Ex-per-i-
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 165--165
+[]|\T1/fav/m/sc/10.95 Observable Stud-
+ []
+
+
+Overfull \vbox (14.57799pt too high) detected at line 165
+ []
+
+[4
+
+]
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 149.
- [4
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 176.
+ [5
 
 ]
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 168.
- [5
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 195.
+ [6
 
-] [6
+] [7
 
 ]
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 199.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 199.
+(Font)              scaled to size 9.60007pt on input line 226.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 199.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.29605pt on input line 199.
+(Font)              scaled to size 7.29605pt on input line 226.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 199.
+(Font)              scaled to size 9.60007pt on input line 226.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.29605pt on input line 199.
- [7
-
-] [8
+(Font)              scaled to size 7.29605pt on input line 226.
+ [8
 
 ] [9
 
@@ -1539,12 +1588,12 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 
 ] [17
 
-]
-[18
+] [18
 
 ] [19
 
-] [20
+]
+[20
 
 ] [21
 
@@ -1570,12 +1619,12 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 
 ] [32
 
-]
-[33
+] [33
 
 ] [34
 
-] [35
+]
+[35
 
 ] [36
 
@@ -1587,60 +1636,33 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 
 ] [40
 
+] [41
+
 ]
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 380.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 407.
 
 
-! LaTeX Error: \begin{itemize} on input line 380 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 407 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 407 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[41
-
-]
-
-! LaTeX Error: \begin{itemize} on input line 380 ended by \end{enumerate}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.380 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1650,26 +1672,26 @@ or  <return>  to continue without it.
 
 ]
 
-! LaTeX Error: \begin{itemize} on input line 380 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 407 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 407 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1679,26 +1701,26 @@ or  <return>  to continue without it.
 
 ]
 
-! LaTeX Error: \begin{itemize} on input line 380 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 407 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 407 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1708,26 +1730,26 @@ or  <return>  to continue without it.
 
 ]
 
-! LaTeX Error: \begin{itemize} on input line 380 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 407 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{enumerate} on input line 380 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 407 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 \end{frame}
+l.407 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1736,17 +1758,44 @@ or  <return>  to continue without it.
 [45
 
 ]
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 406.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 406.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 406.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 406.
- [46
 
-] [47
+! LaTeX Error: \begin{itemize} on input line 407 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.407 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{enumerate} on input line 407 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.407 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[46
+
+]
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 433.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 433.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 8.64006pt on input line 433.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 433.
+ [47
 
 ] [48
 
@@ -1772,17 +1821,17 @@ LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
 
 ] [59
 
+] [60
+
 ]
-<Scale.png, id=646, 456.7464pt x 302.8113pt>
+<Scale.png, id=657, 456.7464pt x 302.8113pt>
 File: Scale.png Graphic file (type png)
  <use Scale.png>
-Package pdftex.def Info: Scale.png used on input line 444.
+Package pdftex.def Info: Scale.png used on input line 471.
 (pdftex.def)             Requested size: 205.53398pt x 136.26381pt.
- [60
+ [61
 
- <./Scale.png>] [61
-
-] [62
+ <./Scale.png>] [62
 
 ] [63
 
@@ -1810,95 +1859,95 @@ Package pdftex.def Info: Scale.png used on input line 444.
 
 ] [75
 
-]
-[76
+] [76
 
-] [77
+]
+[77
 
 ] [78
 
-] <figure/Density-2.pdf, id=843, 142.73325pt x 90.78918pt>
+] [79
+
+] <figure/Density-2.pdf, id=855, 142.73325pt x 90.78918pt>
 File: figure/Density-2.pdf Graphic file (type pdf)
 
 <use figure/Density-2.pdf>
-Package pdftex.def Info: figure/Density-2.pdf used on input line 540.
+Package pdftex.def Info: figure/Density-2.pdf used on input line 567.
 (pdftex.def)             Requested size: 285.46576pt x 181.57788pt.
- [79
+ [80
 
- <./figure/Density-2.pdf>] [80
-
-] [81
+ <./figure/Density-2.pdf>] [81
 
 ] [82
 
+] [83
+
 ]
-<figure/chart1-1.pdf, id=892, 230.8625pt x 230.8625pt>
+<figure/chart1-1.pdf, id=903, 230.8625pt x 230.8625pt>
 File: figure/chart1-1.pdf Graphic file (type pdf)
 
 <use figure/chart1-1.pdf>
-Package pdftex.def Info: figure/chart1-1.pdf used on input line 565.
+Package pdftex.def Info: figure/chart1-1.pdf used on input line 592.
 (pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
 
-Overfull \vbox (15.20065pt too high) detected at line 565
- []
-
-[83
-
- <./figure/chart1-1.pdf>]
-<figure/chart2-1.pdf, id=908, 230.8625pt x 230.8625pt>
-File: figure/chart2-1.pdf Graphic file (type pdf)
-
-<use figure/chart2-1.pdf>
-Package pdftex.def Info: figure/chart2-1.pdf used on input line 576.
-(pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
-
-Overfull \vbox (15.20065pt too high) detected at line 576
+Overfull \vbox (15.20065pt too high) detected at line 592
  []
 
 [84
 
- <./figure/chart2-1.pdf>]
-<figure/chart3-1.pdf, id=924, 230.8625pt x 230.8625pt>
-File: figure/chart3-1.pdf Graphic file (type pdf)
+ <./figure/chart1-1.pdf>]
+<figure/chart2-1.pdf, id=919, 230.8625pt x 230.8625pt>
+File: figure/chart2-1.pdf Graphic file (type pdf)
 
-<use figure/chart3-1.pdf>
-Package pdftex.def Info: figure/chart3-1.pdf used on input line 587.
+<use figure/chart2-1.pdf>
+Package pdftex.def Info: figure/chart2-1.pdf used on input line 603.
 (pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
 
-Overfull \vbox (15.20065pt too high) detected at line 587
+Overfull \vbox (15.20065pt too high) detected at line 603
  []
 
 [85
 
- <./figure/chart3-1.pdf>]
-<figure/chart4-1.pdf, id=944, 230.8625pt x 230.8625pt>
-File: figure/chart4-1.pdf Graphic file (type pdf)
+ <./figure/chart2-1.pdf>]
+<figure/chart3-1.pdf, id=936, 230.8625pt x 230.8625pt>
+File: figure/chart3-1.pdf Graphic file (type pdf)
 
-<use figure/chart4-1.pdf>
-Package pdftex.def Info: figure/chart4-1.pdf used on input line 598.
+<use figure/chart3-1.pdf>
+Package pdftex.def Info: figure/chart3-1.pdf used on input line 614.
 (pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
 
-Overfull \vbox (15.20065pt too high) detected at line 598
+Overfull \vbox (15.20065pt too high) detected at line 614
  []
 
 [86
 
- <./figure/chart4-1.pdf>]
-<figure/chart5-1.pdf, id=963, 230.8625pt x 230.8625pt>
-File: figure/chart5-1.pdf Graphic file (type pdf)
+ <./figure/chart3-1.pdf>]
+<figure/chart4-1.pdf, id=955, 230.8625pt x 230.8625pt>
+File: figure/chart4-1.pdf Graphic file (type pdf)
 
-<use figure/chart5-1.pdf>
-Package pdftex.def Info: figure/chart5-1.pdf used on input line 609.
+<use figure/chart4-1.pdf>
+Package pdftex.def Info: figure/chart4-1.pdf used on input line 625.
 (pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
 
-Overfull \vbox (15.20065pt too high) detected at line 609
+Overfull \vbox (15.20065pt too high) detected at line 625
  []
 
 [87
 
- <./figure/chart5-1.pdf>] [88
+ <./figure/chart4-1.pdf>]
+<figure/chart5-1.pdf, id=974, 230.8625pt x 230.8625pt>
+File: figure/chart5-1.pdf Graphic file (type pdf)
 
-] [89
+<use figure/chart5-1.pdf>
+Package pdftex.def Info: figure/chart5-1.pdf used on input line 636.
+(pdftex.def)             Requested size: 230.86192pt x 230.86192pt.
+
+Overfull \vbox (15.20065pt too high) detected at line 636
+ []
+
+[88
+
+ <./figure/chart5-1.pdf>] [89
 
 ] [90
 
@@ -1914,10 +1963,10 @@ Overfull \vbox (15.20065pt too high) detected at line 609
 
 ] [96
 
-]
-[97
+] [97
 
-] [98
+]
+[98
 
 ] [99
 
@@ -1941,43 +1990,43 @@ Overfull \vbox (15.20065pt too high) detected at line 609
 
 ] [109
 
+] [110
+
 ]
-[110
+[111
 
-] [111
+] [112
 
-] <figure/DinD_chart1-1.pdf, id=1225, 361.35pt x 180.675pt>
+] <figure/DinD_chart1-1.pdf, id=1236, 361.35pt x 180.675pt>
 File: figure/DinD_chart1-1.pdf Graphic file (type pdf)
 
 <use figure/DinD_chart1-1.pdf>
-Package pdftex.def Info: figure/DinD_chart1-1.pdf used on input line 716.
-(pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
- [112
-
- <./figure/DinD_chart1-1.pdf>]
-<figure/DinD_chart1b-1.pdf, id=1241, 361.35pt x 180.675pt>
-File: figure/DinD_chart1b-1.pdf Graphic file (type pdf)
-
-<use figure/DinD_chart1b-1.pdf>
-Package pdftex.def Info: figure/DinD_chart1b-1.pdf used on input line 726.
+Package pdftex.def Info: figure/DinD_chart1-1.pdf used on input line 743.
 (pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
  [113
 
- <./figure/DinD_chart1b-1.pdf>]
-<figure/DinD_chart1c-1.pdf, id=1257, 361.35pt x 180.675pt>
-File: figure/DinD_chart1c-1.pdf Graphic file (type pdf)
+ <./figure/DinD_chart1-1.pdf>]
+<figure/DinD_chart1b-1.pdf, id=1252, 361.35pt x 180.675pt>
+File: figure/DinD_chart1b-1.pdf Graphic file (type pdf)
 
-<use figure/DinD_chart1c-1.pdf>
-Package pdftex.def Info: figure/DinD_chart1c-1.pdf used on input line 735.
+<use figure/DinD_chart1b-1.pdf>
+Package pdftex.def Info: figure/DinD_chart1b-1.pdf used on input line 753.
 (pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
  [114
 
- <./figure/DinD_chart1c-1.pdf>] [115
+ <./figure/DinD_chart1b-1.pdf>]
+<figure/DinD_chart1c-1.pdf, id=1268, 361.35pt x 180.675pt>
+File: figure/DinD_chart1c-1.pdf Graphic file (type pdf)
+
+<use figure/DinD_chart1c-1.pdf>
+Package pdftex.def Info: figure/DinD_chart1c-1.pdf used on input line 762.
+(pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
+ [115
+
+ <./figure/DinD_chart1c-1.pdf>] [116
 
 ]
-[116
-
-] [117
+[117
 
 ] [118
 
@@ -1987,25 +2036,25 @@ Package pdftex.def Info: figure/DinD_chart1c-1.pdf used on input line 735.
 
 ] [121
 
+] [122
+
 ]
-<figure/UK_growth.png, id=1345, 1073.1pt x 500.415pt>
+<figure/UK_growth.png, id=1356, 1073.1pt x 500.415pt>
 File: figure/UK_growth.png Graphic file (type png)
 
 <use figure/UK_growth.png>
-Package pdftex.def Info: figure/UK_growth.png used on input line 766.
+Package pdftex.def Info: figure/UK_growth.png used on input line 793.
 (pdftex.def)             Requested size: 321.93248pt x 150.12566pt.
- [122
+ [123
 
- <./figure/UK_growth.png>] [123
-
-] [124
+ <./figure/UK_growth.png>] [124
 
 ] [125
 
-]
-[126
+] [126
 
-] [127
+]
+[127
 
 ] [128
 
@@ -2027,77 +2076,84 @@ Package pdftex.def Info: figure/UK_growth.png used on input line 766.
 
 ] [137
 
+] [138
+
 ]
-[138
+[139
 
-] [139
+] [140
 
-] <figure/DinD_chart6-1.pdf, id=1531, 361.35pt x 180.675pt>
+] <figure/DinD_chart6-1.pdf, id=1542, 361.35pt x 180.675pt>
 File: figure/DinD_chart6-1.pdf Graphic file (type pdf)
 
 <use figure/DinD_chart6-1.pdf>
-Package pdftex.def Info: figure/DinD_chart6-1.pdf used on input line 862.
-(pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
- [140
-
- <./figure/DinD_chart6-1.pdf>]
-<figure/DinD_chart7-1.pdf, id=1547, 361.35pt x 180.675pt>
-File: figure/DinD_chart7-1.pdf Graphic file (type pdf)
-
-<use figure/DinD_chart7-1.pdf>
-Package pdftex.def Info: figure/DinD_chart7-1.pdf used on input line 871.
+Package pdftex.def Info: figure/DinD_chart6-1.pdf used on input line 889.
 (pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
  [141
 
- <./figure/DinD_chart7-1.pdf>] [142
+ <./figure/DinD_chart6-1.pdf>]
+<figure/DinD_chart7-1.pdf, id=1558, 361.35pt x 180.675pt>
+File: figure/DinD_chart7-1.pdf Graphic file (type pdf)
+
+<use figure/DinD_chart7-1.pdf>
+Package pdftex.def Info: figure/DinD_chart7-1.pdf used on input line 898.
+(pdftex.def)             Requested size: 354.19536pt x 177.09888pt.
+ [142
+
+ <./figure/DinD_chart7-1.pdf>] [143
 
 ]
-[143
-
-] [144
+[144
 
 ] [145
 
+] [146
+
 ]
-Underfull \hbox (badness 1412) in paragraph at lines 910--910
+Underfull \hbox (badness 1412) in paragraph at lines 937--937
 []|\T1/fav/b/n/9 Assumptions re-quired for valid
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 910--910
+Underfull \hbox (badness 6910) in paragraph at lines 937--937
 []|\T1/fav/m/n/9 No spillovers, Ran-dom-iza-tion im-
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 910--910
+Underfull \hbox (badness 6910) in paragraph at lines 937--937
 []|\T1/fav/m/n/9 No spillovers, Ran-dom-iza-tion im-
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 910--910
+Underfull \hbox (badness 1990) in paragraph at lines 937--937
 []|\T1/fav/m/n/9 Instrumental Vari-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 910--910
+Underfull \hbox (badness 2285) in paragraph at lines 937--937
 []|\T1/fav/m/n/9 No Spillovers, First stage pre-dicts
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--910
+Underfull \hbox (badness 10000) in paragraph at lines 937--937
 []|\T1/fav/m/n/9 Difference-in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--910
+Underfull \hbox (badness 10000) in paragraph at lines 937--937
 \T1/fav/m/n/9 founders (par-al-lel trends), Well-
  []
 
-
-Overfull \vbox (22.21991pt too high) detected at line 910
+pdfTeX warning (ext4): destination with the same identifier (name{tab:addlabel}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.937 \end{frame}
+                 
+Overfull \vbox (22.21991pt too high) detected at line 937
  []
 
-[146
+[147
 
 ]
 \tf@nav=\write6
@@ -2109,23 +2165,26 @@ Overfull \vbox (22.21991pt too high) detected at line 910
 \tf@snm=\write8
 \openout8 = `Slides_Day_3_v4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 914.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 914.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 941.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 941.
  (Slides_Day_3_v4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 914.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 914.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 941.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 941.
 Package rerunfilecheck Info: File `Slides_Day_3_v4.out' has not changed.
 (rerunfilecheck)             Checksum: 66CFE8310D3D440C57D7D09E848714E9;276.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 22703 strings out of 493333
- 436113 string characters out of 3139194
- 513029 words of memory out of 3000000
- 25322 multiletter control sequences out of 15000+200000
+ 22707 strings out of 493333
+ 436152 string characters out of 3139194
+ 512067 words of memory out of 3000000
+ 25324 multiletter control sequences out of 15000+200000
  79785 words of font info for 140 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,59p,874b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2141,9 +2200,9 @@ C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7y
 .pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md
 -chbma.pfb><C:/Users/Jonny/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/md
 bch/md-chr7v.pfb>
-Output written on Slides_Day_3_v4.pdf (146 pages, 1298598 bytes).
+Output written on Slides_Day_3_v4.pdf (147 pages, 1302618 bytes).
 PDF statistics:
- 1714 PDF objects out of 1728 (max. 8388607)
- 299 named destinations out of 1000 (max. 500000)
+ 1725 PDF objects out of 1728 (max. 8388607)
+ 301 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
