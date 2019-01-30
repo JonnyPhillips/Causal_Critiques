@@ -55,11 +55,11 @@ d_2004 <- read_csv("2004 Mayoral Elections Data.csv")
 ```{r}
 d_2000 <- d_2000 %>% filter(NUM_TURNO==1) %>% group_by(COD_MUN_IBGE) %>%
   mutate(vote_pct_2000=QTDE_VOTOS/sum(QTDE_VOTOS))
-  
-  
-  
-  
+
+
 d_2000 <- d_2000 %>% group_by(COD_MUN_IBGE) %>% 
+  
+  mutate(vote_pct_2000=QTDE_VOTOS/sum(QTDE_VOTOS)) %>%
   
   mutate(rank_2000=rank(-QTDE_VOTOS)) %>%
   
@@ -87,6 +87,25 @@ d_2004 <- d_2004 %>% filter(NUM_TURNO==1) %>%
   mutate(vote_pct_2004=QTDE_VOTOS/sum(QTDE_VOTOS))
 
 d <- d_2000 %>% left_join(d_2004,by=c("COD_MUN_IBGE","SIGLA_PARTIDO"))
+
+d_2000 <- d_2000 %>% mutate(key=paste0(COD_MUN_IBGE,SIGLA_PARTIDO))
+d_2004 <- d_2004 %>% mutate(key=paste0(COD_MUN_IBGE,SIGLA_PARTIDO))
+
+length(which(d_2000$key==d_2004$key))
+
+d_2004[which(d_2004$key %>% duplicated()),]
+d_2004[which(is.na(d_2004$SIGLA_PARTIDO)),]
+
+d_2000[which(d_2000$key %>% duplicated()),]
+
+d_2000 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% count()
+d_2000 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% unique() %>% count()
+
+for (i in 1:100) {
+  print(length(which(d_2000$key[i]==d_2000$key)))
+}
+
+
 ```
 
 ## Day 2 - Observational regression
@@ -280,7 +299,6 @@ d_alt %>% lm(vote_pct_2016~Incumbent, data=.) %>% summary()
 3. Design an additional test that we could implement that would provide additional evidence that incumbency has a negative electoral impact.
 
 ```{r}
-
 RDestimate(vote_pct_2004~win_margin, data=d, cutpoint=0) %>% summary()
 
 RDestimate(vote_pct_2004~win_margin, data=d, cutpoint=0.1) %>% summary()

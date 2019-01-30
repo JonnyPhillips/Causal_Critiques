@@ -19,8 +19,7 @@ We will continue with your individual presentations of your own/assigned papers,
 
 ## Afternoon - Critiquing the Data
 
-1. If our theory is correct, we should *only* find an effect at the threshold (distance=0). Use the 'RDestimate' package to perform placebo tests with the threshold set to distance=0.1,-0.1,0.05 and -0.05. What do we learn from this test?
 
-2. One theory for why incumbents may do better at the next election is due to access to state resouces. So we might expect the incumbency effect to be more positive (less negative) where state resources are more important, i.e. in the North/Northeast, and more negative in the Southeast. Implement a heterogeneity test to compare the results for just Minas Gerais (MG) and Piaui (PI).
+1. One theory for why incumbents may do better at the next election is due to access to state resouces. So we might expect the incumbency effect to be more positive (less negative) where state resources are more important, i.e. in the North/Northeast, and more negative in the Southeast. Implement a heterogeneity test to compare the results for just Minas Gerais (MG) and Piaui (PI).
 
-3. Design an additional test that we could implement that would provide additional evidence that incumbency has a negative electoral impact.
+2. Design an additional test that we could implement that would provide additional evidence that incumbency has a negative electoral impact.

@@ -11,17 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Morning
 
-1. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Slides_Day_3_v2.pdf)
+1. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Slides_Day_3_v4.pdf)
 2. [Exercises on Causal Methods](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Exercises on Causal Methods.html)
 
 ## Afternoon - Practicing Critiques
 
 For each of the papers below:
 
-(a) Complete the [Paper Summary Template](https://jonnyphillips.github.io/Causal_Critiques/Day 1/Paper_summary_template.pdf) from Day 1;
-(b) Write a critique of the causal methodology, highlighting the assumptions that are made and whether there is any evidence they are met. 
-(c) Explain what alternative explanations might also be consistent with the research findings.
-(d) Conclude by summarising how much you believe the findings of the paper.
+(a) Write a critique of the causal methodology, highlighting the assumptions that are made and whether there is any evidence they are met. 
+(b) Suggest alternative explanations which might also be consistent with the research findings.
+(c) Conclude by summarising how much you believe the findings of the paper.
 
 1. [Acemoglu et al 2001](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/AJR 2001.pdf)
 2. [De La O 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/De_la_O_Do.pdf)
@@ -39,5 +38,6 @@ To overcome the causal problems we saw yesterday, Titiunik implements a regressi
 
 4. How does the balance close to the threshold compare with the balance of winners and losers in the full dataset?
 
-5. Another assumption of regression discontinuity is continuity in the distribution of the variable measuring distance to the threshold. Test this assumption by implementing a McCrary density test. What do the results show?
+5. Another assumption of regression discontinuity is continuity in the distribution of the variable measuring distance to the threshold, in our case winning margin in 2000. Test this assumption by implementing a McCrary density test (DCdensity in the 'rdd' library). What do the results show?
 
+6. If our theory is correct, we should *only* find an effect at the threshold (distance=0). Use the 'RDestimate' function (in the 'rdd' library) to perform **placebo tests** with the threshold set to distance=0.1,-0.1,0.05 and -0.05. What do we learn from this test?

@@ -216,7 +216,7 @@ $(document).ready(function () {
 <div id="morning" class="section level2">
 <h2>Morning</h2>
 <ol style="list-style-type: decimal">
-<li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%203/Slides_Day_3_v2.pdf">Lecture Slides</a></li>
+<li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%203/Slides_Day_3_v4.pdf">Lecture Slides</a></li>
 <li><a href="https://jonnyphillips.github.io/Causal_Critiques/Day%203/Exercises%20on%20Causal%20Methods.html">Exercises on Causal Methods</a></li>
 </ol>
 </div>
@@ -224,9 +224,8 @@ $(document).ready(function () {
 <h2>Afternoon - Practicing Critiques</h2>
 <p>For each of the papers below:</p>
 <ol style="list-style-type: lower-alpha">
-<li>Complete the <a href="https://jonnyphillips.github.io/Causal_Critiques/Day%201/Paper_summary_template.pdf">Paper Summary Template</a> from Day 1;</li>
 <li>Write a critique of the causal methodology, highlighting the assumptions that are made and whether there is any evidence they are met.</li>
-<li>Explain what alternative explanations might also be consistent with the research findings.</li>
+<li>Suggest alternative explanations which might also be consistent with the research findings.</li>
 <li>Conclude by summarising how much you believe the findings of the paper.</li>
 </ol>
 <ol style="list-style-type: decimal">
@@ -243,7 +242,8 @@ $(document).ready(function () {
 <li><p>Interpret the findings of the regression discontinuity. How do they differ from the observational results in Day 2?</p></li>
 <li><p>One assumption of our regression discontinuity is that comparing incumbents that just won and lost elections in 2000 will produce ‘balance’ on potential omitted variables. There are thousands of variables we could check, but let’s assess balance on the size of the municipality by comparing the number of voters in 2000 within 5% of a tied election.</p></li>
 <li><p>How does the balance close to the threshold compare with the balance of winners and losers in the full dataset?</p></li>
-<li><p>Another assumption of regression discontinuity is continuity in the distribution of the variable measuring distance to the threshold. Test this assumption by implementing a McCrary density test. What do the results show?</p></li>
+<li><p>Another assumption of regression discontinuity is continuity in the distribution of the variable measuring distance to the threshold, in our case winning margin in 2000. Test this assumption by implementing a McCrary density test (DCdensity in the ‘rdd’ library). What do the results show?</p></li>
+<li><p>If our theory is correct, we should <em>only</em> find an effect at the threshold (distance=0). Use the ‘RDestimate’ function (in the ‘rdd’ library) to perform <strong>placebo tests</strong> with the threshold set to distance=0.1,-0.1,0.05 and -0.05. What do we learn from this test?</p></li>
 </ol>
 </div>
 
