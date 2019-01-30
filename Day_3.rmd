@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Morning
 
 1. [Lecture Slides](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Slides_Day_3_v4.pdf)
-2. [Exercises on Causal Methods](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Exercises on Causal Methods.html)
+2. [Exercises on Causal Methods](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Exercises_on_Causal_Methods.html)
 
 ## Afternoon - Practicing Critiques
 
