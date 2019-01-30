@@ -22,9 +22,9 @@ For each of the papers below:
 (b) Suggest alternative explanations which might also be consistent with the research findings.
 (c) Conclude by summarising how much you believe the findings of the paper.
 
-1. [Acemoglu et al 2001](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/AJR 2001.pdf)
-2. [De La O 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/De_la_O_Do.pdf)
-3. [Olken 2009](https://jonnyphillips.github.io/Causal_Critiques/Day 4/Papers for Critique/Olken TV and Social Capital.pdf)
+1. [De La O 2013](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Papers for Critique/De_la_O_Do.pdf)
+2. [Acemoglu et al 2001](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Papers for Critique/AJR 2001.pdf)
+3. [Olken 2009](https://jonnyphillips.github.io/Causal_Critiques/Day 3/Papers for Critique/Olken TV and Social Capital.pdf)
 
 ## Afternoon - Critiquing the Data
 
