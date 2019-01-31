@@ -101,6 +101,10 @@ d_2000[which(d_2000$key %>% duplicated()),]
 d_2000 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% count()
 d_2000 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% unique() %>% count()
 
+d_2004 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% count()
+d_2004 %>% select(COD_MUN_IBGE,SIGLA_PARTIDO) %>% ungroup() %>% unique() %>% count()
+
+
 for (i in 1:100) {
   print(length(which(d_2000$key[i]==d_2000$key)))
 }

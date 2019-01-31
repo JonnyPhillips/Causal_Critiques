@@ -64,11 +64,16 @@
 \frametitle{How much are we Learning?}
 \begin{itemize}
 \item Everything we have discussed so far has been about the \textbf{accuracy} of a causal claim
+\pause
 \item But not every study is as valuable to political science
+\pause
 \item We \textit{learn} more from some studies than from others
+\pause
 \begin{enumerate}
 \item Reliability of the claim
+\pause
 \item Reproducibility of the claim
+\pause
 \item Scope (\textit{generalizability}) of the claim
 \end{enumerate}
 \end{itemize}
@@ -78,17 +83,20 @@
 \frametitle{Robustness}
 \begin{itemize}
 \item For simplicity, we publish a paper with a 'final' result
+\pause
 \begin{itemize}
 \item 1\% extra GDP growth increases the President's chance of re-election by 5\%
-\item One more year of drought increases the risk of conflict by 10\%
+\pause
 \end{itemize}
 \item But how \textbf{confident} are we in these figures?
+\pause
 \item Good studies include estimates of uncertainty
+\pause
 \begin{itemize}
 \item 1\% extra GDP growth increases the President's chance of re-election by 5\% with a standard deviation of 0.2\%
-\item One more year of drought increases the risk of conflict by 10\%, with a standard deviation of 30\%
+\pause
 \end{itemize}
-\item But these confidence intervals are usually for a \textit{single} methodology and set of assumptions
+\item But these confidence intervals are usually for a \textit{single} methodology and a fixed set of assumptions
 \end{itemize}
 \end{frame}
 
@@ -96,11 +104,18 @@
 \frametitle{Robustness}
 \begin{itemize}
 \item What if our assumptions were wrong?
+\\pause
 \item How much would our results change if we used a different methodology?
+\pause
 \begin{itemize}
 \item Including different controls
+\pause
 \item Including alternative measures of the variables
+\pause
 \item Including or excluding outliers
+\pause
+\item Including a different functional form for the regression
+\pause
 \end{itemize}
 \item If we can change all these things and still get the same answers, our result is \textbf{reliable} and \textbf{robust}
 \end{itemize}
@@ -110,6 +125,7 @@
 \frametitle{Robustness}
 \begin{itemize}
 \item For example, Michalpoulos and Papaioannou (2013) show that more centralized pre-colonial societies in Africa have more economic activity today
+\pause
 \item Robustness tests include:
 \begin{itemize}
 \item Extra controls for disease, land, natural resources
@@ -127,10 +143,13 @@
 \frametitle{Robustness}
 \begin{itemize}
 \item Robustness tests help avoid \textbf{researcher bias}
+\pause
 \begin{itemize}
 \item Running 200 models with different covariates
+\pause
 \item Only reporting one that is significant
-\item But even if there was \textbf{no causal effect} in the data, \textit{by chance} we would expect 20 models to produce significant effects
+\pause
+\item But even if there was \textbf{no causal effect} in the data, \textit{by chance} we would expect 10 models to produce significant effects
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -141,10 +160,14 @@
 \frametitle{Reproducibility}
 \begin{enumerate}
 \item If we take the same data and apply the same method, do we get the same result?
+\pause
 \begin{itemize}
-\item Often, no! Only ~35\% in Brazilian political science journals (Avelino and Desposato 2018)
+\item Often, no! Only ~35\% replication rate in Brazilian political science journals (Avelino and Desposato 2018)
+\pause
+\item And that's for the papers where we have access to the data and code
+\pause
 \end{itemize}
-\item If we take another sample of data and apply the same method, do we get the same result?
+\item If we take \textbf{another} sample of data and apply the same method, do we get the same result?
 \begin{itemize}
 \item Very rarely done
 \end{itemize}
@@ -155,11 +178,16 @@
 \frametitle{Reproducibility}
 \begin{itemize}
 \item A big problem for reproducibility is \textbf{publication bias}
+\pause
 \begin{itemize}
 \item Lots of researchers perform lots of studies
+\pause
 \item Some find positive results, some negative, many 'null' findings
+\pause
 \item But journals want readers, and readers like positive results
+\pause
 \item So only the positive results get published
+\pause
 \end{itemize}
 \item If you're reading a paper, think of the ten other papers you're \textit{not} reading that tried the same thing and found no effect
 \end{itemize}
@@ -168,11 +196,32 @@
 \begin{frame}
 \frametitle{Reproducibility}
 \begin{itemize}
+\item Publication bias is a \textbf{huge} problem
+\pause
+\item Compare the frquency of results in APSR and AJPS just above and below the 1.96 test statistic (for 5\% significance)
+\pause
+\item Many more values just below the threshold
+\pause
+\item Less than 1 in 32 billion chance this happened by chance!
+\end{itemize}
+\end{frame}
+
+\setbeamercolor{background canvas}{bg=}
+\includepdf[pages={1}, scale=1.6, offset=0 -2.5cm]{Pub_Bias.pdf}
+
+
+\begin{frame}
+\frametitle{Reproducibility}
+\begin{itemize}
 \item One solution is \textbf{Pre-registration}
+\pause
 \begin{itemize}
 \item Submit your study design to a website - what you will analyse and how
+\pause
 \item Everyone knows who is researching what, and if they published or not
+\pause
 \item Researchers are also less tempted to 'pick' their preferred analysis after seeing the data
+\pause
 \item Eg. \href{https://egap.org/content/registration}{EGAP Pre-Registration}
 \end{itemize}
 \end{itemize}
@@ -182,7 +231,9 @@
 \frametitle{Generalizability}
 \begin{itemize}
 \item But even if studies are robust and reproducible, \textbf{how much} are we learning?
+\pause
 \item We can learn very little even from a precise, bias-free study:
+\pause
 \begin{itemize}
 \item \href{https://www.improbable.com/ig/winners}{IgNobel Prize}
 \item "Suicide rates are linked to the amount of country music played on the radio"
@@ -199,14 +250,19 @@
 \item \textbf{Internal Validity}
 \begin{itemize}
 \item Are the conclusions of the study accurate \textit{within} the sample?
+\pause
 \item Are the assumptions valid, is our causal effect biased?
+\pause
 \item Is the conclusion reliable if we use slightly different assumptions?
+\pause
 \end{itemize}
 \item \textbf{External Validity}
 \begin{itemize}
-\item How far can the results 'travel' outside of the study design?
+\item How far can the results 'travel' outside of the study sample?
+\pause
 \begin{enumerate}
 \item Does the study reflect a wider population?
+\pause
 \item How big, representative and interesting is that wider population?
 \end{enumerate}
 \end{itemize}
@@ -216,12 +272,17 @@
 \begin{frame}
 \frametitle{Generalizability}
 \begin{itemize}
-\item For example, Chattopadhyay and Duflo (2004) argue that women leaders invest more in education using data from 265 villages in two states in India (West Bengal and Rajasthan)
-\item But does the conclusion hold if we get more data from:
+\item For example, Chattopadhyay and Duflo (2004) argue that women leaders invest more in education using data from an experiment in 265 villages in two states in India (West Bengal and Rajasthan)
+\pause
+\item But does the conclusion apply to:
+\pause
 \begin{enumerate}
 \item 265 different villages?
+\pause
 \item Different states?
+\pause
 \item Different countries?
+\pause
 \item Different years?
 \end{enumerate}
 \end{itemize}
@@ -231,14 +292,20 @@
 \frametitle{Generalizability}
 \begin{itemize}
 \item Most studies are designed with generalizability in mind:
+\pause
 \begin{itemize}
 \item Representative Samples are drawn from a target population
-\item So we can use \textbf{statistical inference} to extend our conclusions from the sample to the population
+\pause
+\item We use \textbf{statistical inference} to extend our conclusions from the sample to the population
+\pause
 \begin{itemize}
 \item Note this only works if we know all the units (hidden tribes etc.)
+\pause
 \end{itemize}
-\item But Chattopadhyay and Duflo (2004) did not take a representative sample of villages - they surveyed all villages in one district
+\item But Chattopadhyay and Duflo (2004) was not a representative sample of villages
+\pause
 \item Their widely-cited paper \textit{only} applies to Birbhum and Udaipur districts
+\pause
 \item We have no evidence of how women leaders govern elsewhere in India or the world
 \end{itemize}
 \end{itemize}
@@ -248,13 +315,17 @@
 \frametitle{Generalizability}
 \begin{itemize}
 \item Specific causal research designs also restrict the scope of our findings
+\pause
 \begin{itemize}
 \item Precisely because we had to restrict our sample to find appropriate counterfactuals
+\pause
 \item The new comparisons are often less representative or interesting
+\pause
 \end{itemize}
-\item \item Instead of an \textbf{Average Treamtent Effect (ATE)} they represent a \textbf{Local Average Treatment Effect (ATE)}
+\item Instead of an \textbf{Average Treatment Effect (ATE)} they represent a \textbf{Local Average Treatment Effect (LATE)}
+\pause
 \begin{itemize}
-\item A treatment effect applicable only to those people who were affected by the methodology's treatment: \textbf{compliers}
+\item A treatment effect applicable only to those units who were affected by the 'random' part of treatment: \textbf{compliers}
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -262,14 +333,14 @@
 \begin{frame}
 \frametitle{Field Experiments}
 \begin{itemize}
-\item Field experiments require lots of compromises and assumptions
-\begin{itemize}
-\item Costs
-\item Ethical restrictions
-\item Consent
-\end{itemize}
 \item Implementation is limited to a small sample, often non-representative
+\pause
+\begin{itemize}
+\item Due to costs, consent
+\pause
+\end{itemize}
 \item And the findings \textit{only} apply to that sample
+\pause
 \item Or maybe only to a sub-group of that sample
 \end{itemize}
 \end{frame}
@@ -277,16 +348,17 @@
 \begin{frame}
 \frametitle{Field Experiments}
 \begin{itemize}
-\item External Validity Limitations of Field Experiments:
+\item \textbf{External Validity} in Field Experiments:
 \pause
 \begin{itemize}
-\item What theory are we testing? Can't accumulate knowledge without theory. The causal mechanisms are still a black box.
-\item Limited portability of findings - context matters for the treatment effects:
+\item What \textbf{theory} are we testing? We can't accumulate knowledge without theory. The causal mechanisms are still a black box.
+\pause
+\item Limited \textbf{portability} of findings - context matters for the treatment effects:
+\pause
 \begin{itemize}
-\item Eg. CCTs improve child health only where clinics are available
-\item Average effects may not apply to any individual
-\end{itemize}s
-\item Naive application of policy implications
+\item Eg. CCTs improve child health \textit{only} where clinics are available, people are sufficiently educated, etc.
+\end{itemize}
+\pause
 \item How much do the results depend on researcher oversight?
 \end{itemize}
 \end{itemize}
@@ -296,10 +368,14 @@
 \frametitle{Lab Experiments}
 \begin{itemize}
 \item Problems generalizing from the lab:
+\pause
 \begin{itemize}
 \item \textbf{Hawthorne effect}: Lab context influences behaviour, social desirability bias
+\pause
 \item \textbf{Context effects}: The real-world always provides more information, more history
+\pause
 \item \textbf{Process effects}: People care \textit{how} decisions are made
+\pause
 \item \textbf{Selection effects}: Actors in specific roles are rarely representative samples, 'WEIRD' or pro-social lab subjects
 \end{itemize}
 \end{itemize}
@@ -312,23 +388,11 @@
 \pause
 \begin{itemize}
 \item The stakes
-\item The norms (specific norms of being an experimental subject)
-\item The degree of scrutiny
+\item The norms
+\item The degree of scrutiny (Levitt and List 2006, ``You tip more when you're on a date'')
 \item The sample of individuals
 \item The degree of anonymity
 \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Lab Experiments}
-\begin{itemize}
-\item Levitt and List 2006 argue lab experiments are \textit{inherently} flawed because the decisions we want to measure are likely to change depending on the degree of \textbf{scrutiny}
-\pause
-\item ``You tip more when you're on a date''
-\item Social norms are activated, eg. treating one-shot games like repeated games
-\item Scrutiny alters who wants to make a decision as well as the decision they make
-\item Subjets use cues (heuristics) to draw on 'similar' situations from the real world
 \end{itemize}
 \end{frame}
 
@@ -339,40 +403,11 @@
 \pause
 \begin{itemize}
 \item Scrutiny increases cooperation
+\pause
 \item Anonymity reduces cooperation
+\pause
 \item That's interesting in itself! We can manipulate the degree of scrutiny/anonymity etc.
 \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Lab Experiments}
-\begin{itemize}
-\item Lab experiments may be generalizable where norms/morality are less important
-\pause
-\begin{itemize}
-\item ???
-\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Survey Experiments}
-\begin{itemize}
-\item Treatment occurs \textit{within} the survey questionnaire
-\begin{itemize}
-\item Different versions of the questionnaire randomly applied
-\item Not a field experiment: Still an artificial context
-\item Not a lab experiment: People not brought to a single location or interacting
-\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Conjoint Survey Experiments}
-\begin{itemize}
-\item How do people make choices between many options?
-\item Treatments are often 'bundles', but which aspect matters most?
 \end{itemize}
 \end{frame}
 
@@ -382,11 +417,13 @@
 \item Hainmueller et al 2013 - How do attitudes to immigrants depend on immigrant characteristics?
 \pause
 \item Vary education, profession, language, gender, national origin, etc.
+\pause
 \item Profiles
 \begin{itemize}
 \item Attributes
 \begin{itemize}
 \item Values
+\pause
 \end{itemize}
 \end{itemize}
 \item Randomize attribute order to prevent bias
@@ -403,12 +440,17 @@
 \frametitle{Conjoint Survey Experiments}
 \begin{itemize}
 \item How realistic are the responses?
+\pause
 \begin{itemize}
-\item Not a behavioural measure; nothing at stake
+\item Not a \textbf{behavioural} measure; nothing 'at stake'
+\pause
 \item Social desirability bias
-\item Not like real-world preference-formation process
+\pause
+\item Not like the real-world
+\pause
 \end{itemize}
 \item Hainmueller et al 2014 - compare conjoint responses to a Swiss referendum
+\pause
 \item Citizens voted on specific naturalization applicants (Really!)
 \end{itemize}
 \end{frame}
@@ -419,6 +461,8 @@
 \begin{frame}
 \frametitle{Conjoint Survey Experiments}
 \begin{itemize}
+\item Marginal effects are quite similar
+\pause
 \item But note the conjoint method still hugely under-estimated the overall rejection rate
 \item 21\% versus 37\% in reality
 \end{itemize}
@@ -427,24 +471,40 @@
 \begin{frame}
 \frametitle{Regression Discontinuity}
 \begin{itemize}
-\item The LATE is for those people who were so close to the discontinuity that whether they were treated or not is basically random
+\item The LATE estimate is for those people who were so close to the discontinuity that whether they were treated or not is basically random
+\pause
 \begin{itemize}
 \item Even though those cases are rare (eg. tied elections)
+\pause
 \item Even though we use data from a lot more people to estimate the LATE
+\pause
 \end{itemize}
 \item Do we care about those people at the discontinuity?
+\pause
+\begin{itemize}
+\item It depends on our research/policy question
+\pause
+\item A trade-off between representativeness and accuracy of our estimates
+\end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Regression Discontinuity}
 \begin{itemize}
-\item For example, Titiunik et al (2011) use a regression discontinuity on close elections in Brazilian municipalities to show that incumbent Mayors are more likely to lose (negative incumbency effect)
+\item Titiunik et al (2011) 
+\pause
 \begin{itemize}
+\item -6\% incumbency effect
+\pause
 \item But this does \textbf{not} mean that there is a negative incumbency effect in most Brazilian municipalities
+\pause
 \item Only about 500 out of 5,570 municipalities had 'close' elections (within +/-3\%)
+\pause
 \item Those municipalities were more urban, southern and wealthy than the rest
+\pause
 \item We do not learn anything about places where the result was a landslide (70-80\%)
+\pause
 \begin{itemize}
 \item But these are the places where incumbents probably benefitted a lot!
 \end{itemize}
@@ -456,8 +516,10 @@
 \frametitle{Regression Discontinuity}
 \begin{itemize}
 \item Similarly, geographic regression discontinuities only tells us the effect of living on one side of the border \textit{for people who live by the border}
+\pause
 \begin{itemize}
 \item But who chooses to live by a border? People who like rural areas, migrants etc.
+\pause
 \item Self-selection bias has come back!
 \end{itemize}
 \end{itemize}
@@ -466,18 +528,12 @@
 \begin{frame}
 \frametitle{Instrumental Variables}
 \begin{itemize}
-\item Critique (Deaton 2009):
+\item Critique of \textbf{Opportunism} (Deaton 2009):
 \pause
 \begin{itemize}
-\item Our causal models need to represent a theory, not just be an arbitrary equation
-\pause
 \item If we use 'convenient' instruments, our causal effect and complier population are out of our control and might not be interesting
 \pause
-\item LATE causal estimates are not a good guide to policy effects
-\pause
-\item 'External' to our model is not the same as 'Exogenous', and we can't test exogeneity
-\pause
-\item Where the instrument is an arbitrary rule, there is often sorting as people re-adjust
+\item A risk of chasing impressive research designs instead of asking important questions
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -486,16 +542,16 @@
 \frametitle{Learning in Political Science}
 \begin{itemize}
 \item So how much can we learn?
+\pause
 \begin{itemize}
 \item We have to make careful judgments based on internal and external validity
+\pause
 \item Ideally combining multiple methodologies to compare low-bias low-generalizibility evidence with high-bias high-generalizability evidence
+\pause
+\item Some topics maybe we simply cannot learn very much.
 \end{itemize}
 \end{itemize}
-\end{frame}
-
-
-
-
+\end{frame} 
 
 \end{document}
  
