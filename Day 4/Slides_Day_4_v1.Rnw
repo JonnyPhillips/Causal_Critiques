@@ -162,7 +162,7 @@
 \item If we take the same data and apply the same method, do we get the same result?
 \pause
 \begin{itemize}
-\item Often, no! Only ~35\% replication rate in Brazilian political science journals (Avelino and Desposato 2018)
+\item Often, no! Only 35\% replication rate in Brazilian political science journals (Avelino and Desposato 2018)
 \pause
 \item And that's for the papers where we have access to the data and code
 \pause
@@ -207,7 +207,7 @@
 \end{frame}
 
 \setbeamercolor{background canvas}{bg=}
-\includepdf[pages={1}, scale=1.6, offset=0 -2.5cm]{Pub_Bias.pdf}
+\includepdf[pages={1}, scale=0.8]{Pub_Bias.pdf}
 
 
 \begin{frame}
@@ -522,6 +522,21 @@
 \pause
 \item Self-selection bias has come back!
 \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Instrumental Variables}
+\begin{itemize}
+\item Instrumental Variables also estimate LATE
+\begin{itemize}
+\item A causal effect estimate for \textbf{compliers}, units that received treatment \textit{because of variation in the instrument}
+\item "Better LATE than never"
+\end{itemize}
+\item Compliers
+\item Always-takers
+\item Never-takers
+\item Defiers
 \end{itemize}
 \end{frame}
 
