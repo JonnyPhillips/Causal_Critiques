@@ -35,13 +35,13 @@ library(cepespR)
 
 d_2000 <- get_elections(year=2000, position="Mayor", regional_aggregation="Municipality", political_aggregation="Party")
 
-d_2000_processed <- d_2000 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS,DESC_SIT_TOT_TURNO)
+d_2000_processed <- d_2000 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS)
 
 d_2000_processed %>% write_csv("2000 Mayoral Elections Data.csv")
 
 d_2004 <- get_elections(year=2004, position="Mayor", regional_aggregation="Municipality", political_aggregation="Party")
 
-d_2004_processed <- d_2004 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS,DESC_SIT_TOT_TURNO)
+d_2004_processed <- d_2004 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS)
 
 d_2004_processed %>% write_csv("2004 Mayoral Elections Data.csv")
 ```
@@ -271,8 +271,14 @@ d %>% filter(win_margin>0.2 | win_margin < -0.2) %>%
 
 ```{r}
 d_2012 <- get_elections(year=2012, position="Mayor", regional_aggregation="Municipality", political_aggregation="Party")
+d_2012_processed <- d_2012 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS)
+d_2012_processed %>% write_csv("2012 Mayoral Elections Data.csv")
+
 
 d_2016 <- get_elections(year=2016, position="Mayor", regional_aggregation="Municipality", political_aggregation="Party")
+d_2016_processed <- d_2016 %>% select(ANO_ELEICAO,NUM_TURNO,UF,COD_MUN_IBGE,NOME_MUNICIPIO,SIGLA_PARTIDO,QTDE_VOTOS)
+d_2016_processed %>% write_csv("2016 Mayoral Elections Data.csv")
+
 
 d_2012 <- d_2012 %>% filter(NUM_TURNO==1) %>% 
   group_by(COD_MUN_IBGE) %>% 
