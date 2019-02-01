@@ -19,6 +19,9 @@ navbar:
       href: Day_4.html
     - text: "Day 5"
       href: Day_5.html
+    - text: "Links"
+      href: Links.html
+
 
 output:
   html_document:
